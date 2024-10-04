@@ -20,12 +20,14 @@
   --font-primary: 'Tan_meringue', sans-serif;
   --font-secondary:  "Montserrat", sans-serif;
 }
+
 * {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth; 
 }
+
 body{
   background-color: var(--light-grey);
 }
@@ -33,26 +35,20 @@ body{
 .cont-height-1{
   height: 600px;
 }
-.cont-height-2 {
-  height: 900px;
-}
-.cont-height-3{
-  height: 1000px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 
 /*Btn arrow*/
 .btn-arrow{
-  position: sticky;
+  position: fixed;
   bottom: 0px;
+  right: 0px;
 }
+/************   nav    *************/
 .sticky-nav{
   position: sticky;
   top: 0px;
   background-color: var(--light-grey);
   z-index: 1;
+  padding: 0px 100px;
 }
 
 .he-nav{
@@ -77,7 +73,7 @@ body{
   text-transform: capitalize;
 }
 
-/*header*/
+/************   header   *************/
 .header-text h1{
   font-size: 82px;
   font-family: var(--font-primary);
@@ -120,7 +116,10 @@ body{
   height: auto;
 }
 
-/*********************section 2***************************/
+/************   services    *************/
+.cont-height-2 {
+  height: 900px;
+}
 .col-services{
   height: 100vh;
   background-image: url("/assets/img/section-2-bg.png");
@@ -171,8 +170,10 @@ body{
   bottom: 0;
 }
 
-/************section 3 products******************/
-
+/************   products    *************/
+.cont-height-3{
+  height: 1000px;
+}
 .prod-text h3{
   font-family: var(--font-primary);
   color: var(--brown);
@@ -198,7 +199,13 @@ body{
   box-shadow: 0px 4px 45px 0px #0000002E;
 }
 
-/*****************section 4 - about me*********************/
+/************   about-me    *************/
+.cont-about{
+  background-image: url("./assets/img/about-me-bg.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: top;
+}
 .about-text h3{
   font-family: var(--font-primary);
   font-size: 82px;
@@ -225,4 +232,144 @@ body{
   height: 70px;
   box-shadow: 0px 4px 45px 0px #0000002E;
 
+}
+
+/************   about    *************/
+.cont-height-4{
+  background-color: var(--light-brown);
+  background-image: url("./assets/img/circles.png");
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-size: contain;
+  height: 500px;
+}
+.text-p{
+  width:860px;
+  text-align: center;
+}
+.text-p p{
+  font-family: var(--font-primary);
+  font-size: 40px;
+  color: var(--white);
+  
+}
+.text-p span{
+  color:var(--brown);
+}
+
+/************   quality    *************/
+.cont-height-5{
+  height: 1024px;
+}
+.frame-37{
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.qt-text h3{
+  font-family: var(--font-primary);
+  font-size: 40px;
+  color: var(--brown);
+}
+.qt-text p, .qt-card-text p {
+  font-family: var(--font-secondary);
+  font-size: 16px;
+  color: var(--black);
+  margin:0;
+}
+.qt-card-text h4{
+  font-family: var(--font-primary);
+  font-size: 20px;
+  color: var(--brown);
+}
+.qt-card-text{
+  width:360px;
+  margin:0;
+}
+.qt-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 360px;
+  height: 163px;
+}
+.qt-bloque-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 47px;
+}
+
+/************   testimonials    *************/
+
+.cont-height-6{
+  height: 560px;
+  background-image: url("./assets/img/Testimonials.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+/************   appointment    *************/
+.bg-appo{
+  background-image: url("./assets/img/appointment.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 560px;
+}
+.appo-text h2{
+  font-family: var(--font-primary);
+  font-size: 64px;
+  color: var(--white);
+  font-weight: 400;
+}
+.appo-text p{
+  font-family: var(--font-secondary);
+  font-size: 20px;
+  color: var(--white);
+  font-weight: 500;
+}
+
+/************   footer    *************/
+.foo-cont{
+  height: 560px;
+  background-color: var(--brown);
+}
+.logo-foo{
+  font-family: var(--font-primary);
+  font-size: 36px;
+  color: var(--white);
+  width: 300px;
+  line-height: 1.4;
+}
+.bold-footer{
+  font-family: var(--font-secondary);
+  color: #A87A7A;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.light-footer a, .light-footer{
+  font-family: var(--font-secondary);
+  color: #DFD4D1;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: capitalize;
+  text-decoration: none;
+  list-style-type: none;
+}
+.rg-fo{
+  border-top: 1px #A87A7A solid;
+  height: 90px;
+}
+.rg-fo p{
+  text-align: center;
+  font-family: var(--font-secondary);
+  font-size: 20px;
+  color: var(--white);
+  font-weight: 400;
+}
+.wd-90{
+  width: 90%;
 }

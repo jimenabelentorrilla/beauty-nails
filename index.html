@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container sticky-nav">
-        <nav class="row he-nav d-flex align-content-center">
+    <nav class="container-fluid sticky-nav">
+        <div class="row he-nav d-flex align-content-center">
             <div class="col">
                 <div class="navbar-br">
                     <span>BeautyNails</span>
@@ -26,152 +26,281 @@
             <div class="col">
                 <ul class="d-flex align-items-center gap-5 justify-content-end nav-ul">
                     <li><a href="#services">services</a></li>
-                    <li><a href="/">testimonials</a></li>
-                    <li><a href="/">about</a></li>
-                    <li><a href="/">contact</a></li>
+                    <li><a href="#testimonials">testimonials</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#contact">contact</a></li>
                 </ul>
             </div>
-        </nav>
-    </div>
-    <div class="container">
-        <div class="row d-flex align-content-center cont-height-1">
-            <div class="col">
-                <div class="header-text">
-                    <h1>Elevate your <br>nails & shine</h1>
-                    <p>For beautiful nails, you've come to the right place</p>
-                    <button href="/" class="cta d-flex justify-content-center align-items-center gap-1">
-                        <span>Book appointment</span>
-                        <div class="cta-arrow d-flex justify-content-center align-items-center">
-                            <i class="fa-solid fa-arrow-right-long" style="color:#FFFFFF;"></i>
-                        </div>
-                    </button>
-                </div>
-            </div>
-            <div class="col">
-                <div class="header-img d-flex justify-content-center align-items-center">
-                    <img src="/assets/img/header-img.png">
-                </div>
-            </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="row d-flex align-content-center cont-height-2" id="services">
-            <div class="col col-services d-flex justify-content-around flex-column">
-                <h2 class="services-title">Featured Treatments</h2>
-                <div class="srv-flex d-flex justify-content-between">
-                    <div class="cards-flex d-flex flex-column justify-content-between">
-                        <div class="cards-text d-flex flex-column align-items-center gap-2"> <!--copiar-->
-                            <div>
-                                <img src="/assets/img/section-2-01.png">
+    </nav>
+    <header>
+        <div class="container">
+            <div class="row d-flex align-content-center cont-height-1">
+                <div class="col">
+                    <div class="header-text">
+                        <h1>Elevate your <br>nails & shine</h1>
+                        <p>For beautiful nails, you've come to the right place</p>
+                        <button href="/" class="cta d-flex justify-content-center align-items-center gap-1">
+                            <span>Book appointment</span>
+                            <div class="cta-arrow d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-arrow-right-long" style="color:#FFFFFF;"></i>
                             </div>
-                            <div class="cards-text-flex">
-                                <h3>Combi Manicure</h3>
-                                <p>The electric file removes dead skin from the cuticle for a super sleek end result</p>
-                            </div>
-                        </div>
-                        <div>
-                            <span class="services-btn">View Details</span>
-                        </div>
+                        </button>
                     </div>
-                    <div class="cards-flex d-flex flex-column justify-content-between">
-                        <div class="cards-text d-flex flex-column align-items-center gap-2">
-                            <div>
-                                <img src="/assets/img/section-2-02.png">
-                            </div>
-                            <div class="cards-text-flex">
-                                <h3>Powegel & Gelpolish</h3>
-                                <p>Natural nail is strengthened with a building gel + gel polish color of your choice</p>
-                            </div>
-                        </div>
-                        <div>
-                            <span class="services-btn">View Details</span>
-                        </div>
-                    </div>
-                    <div class="cards-flex d-flex flex-column justify-content-between">
-                        <div class="cards-text d-flex flex-column align-items-center gap-2">
-                            <div>
-                                <img src="/assets/img/section-2-03.png">
-                            </div>
-                            <div class="cards-text-flex">
-                                <h3>Nailart</h3>
-                                <p>Want to stand out even more with beautiful nail art on your nails?</p>
-                            </div>           
-                        </div>
-                        <div>
-                            <span class="services-btn">View Details</span>
-                        </div>
-                    </div>
-                    <div class="cards-flex d-flex flex-column justify-content-between">
-                        <div class="cards-text d-flex flex-column align-items-center gap-2">
-                            <div>
-                                <img src="/assets/img/section-2-04.png">
-                            </div>
-                            <div class="cards-text-flex">
-                                <h3>Toenails</h3>
-                                <p>Your toenails painted in a Gel polish of your choice (including foot bubble bath)</p>
-                            </div>            
-                        </div>
-                        <div>
-                            <span class="services-btn">View Details</span>
-                        </div>
+                </div>
+                <div class="col">
+                    <div class="header-img d-flex justify-content-center align-items-center">
+                        <img src="/assets/img/header-img.png">
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container cont-height-3">
-        <div class="row d-flex align-items-center">
-            <div class="col">
-                <div>
-                    <img src="assets/img/products.png"> 
-                </div>
-            </div>
-            <div class="col">
-                <div class="prod-text">
-                    <h3>The  best quality a-branded products</h3>
-                    <p>Experience Unmatched Nail Care with Our Selection of Top-Quality A-Branded Products.<br>
-                    At Nail318, we exclusively use <span class="bold"><b>premium brands</b></span> to ensure your nails receive the best treatment and care available.</p>
-                    <button class="cta-2 d-flex justify-content-center align-items-center gap-1">
-                        <span>See more</span>
-                        <div class="cta-arrow d-flex justify-content-center align-items-center">
-                            <i class="fa-solid fa-arrow-right-long" style="color:#FFFFFF;"></i>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row d-flex align-content-center cont-height-2" id="services">
+                <div class="col col-services d-flex justify-content-around flex-column">
+                    <h2 class="services-title">Featured Treatments</h2>
+                    <div class="srv-flex d-flex justify-content-between">
+                        <div class="cards-flex d-flex flex-column justify-content-between">
+                            <div class="cards-text d-flex flex-column align-items-center gap-2"> <!--copiar-->
+                                <div>
+                                    <img src="/assets/img/section-2-01.png">
+                                </div>
+                                <div class="cards-text-flex">
+                                    <h3>Combi Manicure</h3>
+                                    <p>The electric file removes dead skin from the cuticle for a super sleek end result</p>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="services-btn">View Details</span>
+                            </div>
                         </div>
-                    </button>
-                    <div class="d-flex justify-content-end">
-                        <img src="./assets/img/btn-products.png">
+                        <div class="cards-flex d-flex flex-column justify-content-between">
+                            <div class="cards-text d-flex flex-column align-items-center gap-2">
+                                <div>
+                                    <img src="/assets/img/section-2-02.png">
+                                </div>
+                                <div class="cards-text-flex">
+                                    <h3>Powegel & Gelpolish</h3>
+                                    <p>Natural nail is strengthened with a building gel + gel polish color of your choice</p>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="services-btn">View Details</span>
+                            </div>
+                        </div>
+                        <div class="cards-flex d-flex flex-column justify-content-between">
+                            <div class="cards-text d-flex flex-column align-items-center gap-2">
+                                <div>
+                                    <img src="/assets/img/section-2-03.png">
+                                </div>
+                                <div class="cards-text-flex">
+                                    <h3>Nailart</h3>
+                                    <p>Want to stand out even more with beautiful nail art on your nails?</p>
+                                </div>           
+                            </div>
+                            <div>
+                                <span class="services-btn">View Details</span>
+                            </div>
+                        </div>
+                        <div class="cards-flex d-flex flex-column justify-content-between">
+                            <div class="cards-text d-flex flex-column align-items-center gap-2">
+                                <div>
+                                    <img src="/assets/img/section-2-04.png">
+                                </div>
+                                <div class="cards-text-flex">
+                                    <h3>Toenails</h3>
+                                    <p>Your toenails painted in a Gel polish of your choice (including foot bubble bath)</p>
+                                </div>            
+                            </div>
+                            <div>
+                                <span class="services-btn">View Details</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="row d-flex align-items-center">
-            <div class="col">
-                <div>
-                    <img src="/assets/img/pic-profile.png">
+        <div class="container cont-height-3 d-flex flex-column justify-content-center" id="products">
+            <div class="row d-flex align-items-center">
+                <div class="col">
+                    <div>
+                        <img src="assets/img/products.png"> 
+                    </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="about-text d-flex flex-column gap-3">
-                    <h3>I’m Sarah,</h3>
-                    <h4>Your nailstylist</h4>
-                    <p>With over three years of experience in the industry, I am certified by <b>Magnetic</b>
-                        and have accumulated more than 15 professional education certificates along
-                        with over 20 course participation certificates.</p>
-                    <button class="cta-3 d-flex justify-content-center align-items-center gap-1">
-                        <span>More about</span>
-                        <div class="cta-arrow d-flex justify-content-center align-items-center">
-                            <i class="fa-solid fa-arrow-right-long" style="color:#FFFFFF;"></i>
+                <div class="col">
+                    <div class="prod-text">
+                        <h3>The  best quality a-branded products</h3>
+                        <p>Experience Unmatched Nail Care with Our Selection of Top-Quality A-Branded Products.<br>
+                        At BeautyNails, we exclusively use <span class="bold"><b>premium brands</b></span> to ensure your nails receive the best treatment and care available.</p>
+                        <button class="cta-2 d-flex justify-content-center align-items-center gap-1">
+                            <span>See more</span>
+                            <div class="cta-arrow d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-arrow-right-long" style="color:#FFFFFF;"></i>
+                            </div>
+                        </button>
+                        <div class="d-flex justify-content-end">
+                            <img src="./assets/img/btn-products.png">
                         </div>
-                    </button>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="container cont-about" id="about">
+            <div class="row d-flex align-items-center">
+                <div class="col">
+                    <div>
+                        <img src="/assets/img/pic-profile.png">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="about-text d-flex flex-column gap-3">
+                        <h3>I’m Sarah,</h3>
+                        <h4>Your nailstylist</h4>
+                        <p>With over three years of experience in the industry, I am certified by <b>Magnetic</b>
+                            and have accumulated more than 15 professional education certificates along
+                            with over 20 course participation certificates.</p>
+                        <button class="cta-3 d-flex justify-content-center align-items-center gap-1">
+                            <span>More about</span>
+                            <div class="cta-arrow d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-arrow-right-long" style="color:#FFFFFF;"></i>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row cont-height-4">
+                <div class="col d-flex justify-content-center align-items-center">
+                    <div class="text-p">
+                        <p>“My genuine interest in people ensures that every visit to <span>BeautyNails</span>
+                            is not just a service, but an experience of <span>relaxation</span> and <span>beauty”</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row cont-height-5">
+                <div class="col-lg-5 d-flex justify-content-center align-items-center">
+                    <img src="./assets/img/quality-img.png">
+                </div>
+                <div class="col-lg-7 d-flex justify-content-center align-items-center">
+                    <div class="frame-37">
+                        <div class="qt-text">
+                            <h3>Discover the magic</h3>
+                            <p>At BeautyNails, we prioritize your convenience and comfort.<br>
+                                Enjoy a complimentary coffee or tea while you wait in our cozy waiting area.<br>
+                                With an efficient online booking system, scheduling your next appointment is just a click away.</p>
+                        </div>
+                        <div class="qt-bloque-flex">
+                            <div class="qt-flex">
+                                <div>
+                                    <img src="./assets/img/icon-1.png">
+                                </div>
+                                <div class="qt-card-text">
+                                    <h4>Premium Salon Specialties</h4>
+                                    <p>We provide unique DUO treatments and special packages for weddings and mother-daughter moments, ensuring a luxurious experience for every occasion.</p> 
+                                </div>
+                            </div>
+                            <div class="qt-flex">
+                                <div>
+                                    <img src="./assets/img/icon-2.png">
+                                </div>
+                                <div class="qt-card-text">
+                                    <h4>High-Quality Facilities</h4>
+                                    <p>We ensure a safe and hygienic environment. Our salon includes essential amenities like a toilet and ample space, allowing you to bring a friend to share the experience.</p>
+                                </div>
+                            </div>
+                            <div class="qt-flex">
+                                <div>
+                                    <img src="./assets/img/icon-3.png">
+                                </div>
+                                <div class="qt-card-text">
+                                    <h4>Outstanding Ratings & Reviews</h4>
+                                    <p>With over 250 unique 5-star reviews and a 5-day guarantee on treatments, BeautyNails is dedicated to providing exceptional service and quality.</p>
+                                </div>
+                            </div>
+                            <div class="qt-flex">
+                                <div>
+                                    <img src="./assets/img/icon-4.png">
+                                </div>
+                                <div class="qt-card-text">
+                                    <h4>Commitment to Excellence</h4>
+                                    <p>Using only top-quality A-branded products, we offer complimentary nail oil and cuticle cream for at-home care. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container cont-height-6" id="testimonials">
+            <div class="row">
+                <div class="col">
 
-    </div>
-    <a href="/" class="btn-arrow d-flex justify-content-end">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-appo d-flex justify-content-center align-items-center">
+            <div class="row">
+                <div class="col">
+                    <div class="appo-text">
+                        <h2>Shine like never before</h2>
+                        <p>We like to take the time to make your hands shine</p>
+                        <button href="/" class="cta d-flex justify-content-center align-items-center gap-1">
+                            <span>Book appointment</span>
+                            <div class="cta-arrow d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-arrow-right-long" style="color:#FFFFFF;"></i>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="container-fluid foo-cont d-flex flex-column justify-content-evenly align-items-center" id="contact">
+        <div class="row wd-90">
+            <div class="col">
+                <div>
+                    <h2 class="logo-foo">BeautyNails Nail Studio Veenendaal</h2>
+                </div>
+            </div>
+            <div class="col">
+                <div class="d-flex justify-content-between gap-5">
+                    <ul class="d-flex gap-3 flex-column">
+                        <li class="bold-footer">links</li>
+                        <li class="light-footer"><a href="#services">services</a></li>
+                        <li class="light-footer"><a href="#products">products</a></li>
+                    </ul>
+                    <ul class="d-flex gap-3 flex-column">
+                        <li class="bold-footer">about</li>
+                        <li class="light-footer"><a href="#testimonials">testimonials</a></li>
+                    </ul>
+                    <ul class="d-flex gap-3 flex-column">
+                        <li class="bold-footer">contact</li>
+                        <li class="light-footer">1234 Elmwood Avenue</li>
+                        <li class="light-footer">info@beautystudio.com</li>
+                        <li class="light-footer">90983-05836</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row wd-90">
+            <div class="col">
+                <div class="rg-fo d-flex justify-content-center align-items-center">
+                    <p>2024 All Rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Button to bottom---->
+    <a href="#contact" class="btn-arrow d-flex justify-content-end">
         <img src="/assets/img/btn-arrow.png">
     </a>
+    
     <!--Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
