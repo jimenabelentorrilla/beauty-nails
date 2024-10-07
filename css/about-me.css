@@ -1,0 +1,36 @@
+/************   about-me    *************/
+
+
+.cont-about{
+    background-image: url("../assets/img/about-me-bg.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+  }
+  .about-text h3{
+    font-family: var(--font-primary);
+    font-size: 82px;
+    color: var(--brown);
+    margin: 0;
+  }
+  .about-text h4{
+    font-family: var(--font-primary);
+    font-size: 32px;
+    color: var(--light-brown);
+    margin: 0;
+  }
+  .about-text p{
+    font-family: var(--font-secondary);
+    font-size: 20px;
+    color: var(--black);
+  }
+  .cta-3{
+    background-color: var(--white) !important;
+    padding: 10px 22px;
+    border-radius: 40px;
+    border: none;
+    width: 215px;
+    height: 70px;
+    box-shadow: 0px 4px 45px 0px #0000002E;
+  
+  }

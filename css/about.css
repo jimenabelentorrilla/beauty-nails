@@ -1,0 +1,24 @@
+/************   about    *************/
+
+
+.cont-height-4{
+    background-color: var(--light-brown);
+    background-image: url("../assets/img/circles.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: contain;
+    height: 500px;
+  }
+  .text-p{
+    width:860px;
+    text-align: center;
+  }
+  .text-p p{
+    font-family: var(--font-primary);
+    font-size: 40px;
+    color: var(--white);
+    
+  }
+  .text-p span{
+    color:var(--brown);
+  }

@@ -1,0 +1,30 @@
+/************   products    *************/
+
+.cont-height-3{
+    height: 1000px;
+}
+
+  .prod-text h3{
+    font-family: var(--font-primary);
+    color: var(--brown);
+    font-size: 40px;
+    font-weight: 400;
+  }
+  .prod-text p{
+    font-family: var(--font-secondary);
+    color: var(--black);
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .bold{
+    color: var(--brown)
+  }
+  .cta-2{
+    background-color: var(--white) !important;
+    padding: 10px 22px;
+    border-radius: 40px;
+    border: none;
+    width: 200px;
+    height: 70px;
+    box-shadow: 0px 4px 45px 0px #0000002E;
+  }

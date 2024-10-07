@@ -13,26 +13,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!--Font-awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/services.css">
+    <link rel="stylesheet" href="./css/products.css">
+    <link rel="stylesheet" href="./css/about-me.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/quality.css">
+    <link rel="stylesheet" href="./css/testimonials.css">
+    <link rel="stylesheet" href="./css/appointment.css">
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
-<body>
-    <nav class="container-fluid sticky-nav">
-        <div class="row he-nav d-flex align-content-center">
-            <div class="col">
+<body id="home">
+    <div class="container-fluid sticky-nav">
+        <div class="row he-nav">
+            <div class="col d-flex align-items-center">
                 <div class="navbar-br">
-                    <span>BeautyNails</span>
+                    <a href="#home">BeautyNails</a>
                 </div>
             </div>
             <div class="col">
-                <ul class="d-flex align-items-center gap-5 justify-content-end nav-ul">
-                    <li><a href="#services">services</a></li>
-                    <li><a href="#testimonials">testimonials</a></li>
-                    <li><a href="#about">about</a></li>
-                    <li><a href="#contact">contact</a></li>
+                <ul class="d-flex gap-5 justify-content-end nav-ul">
+                    <li class="op"><a href="#services">services</a></li>
+                    <li class="op"><a href="#testimonials">testimonials</a></li>
+                    <li class="op"><a href="#about">about</a></li>
+                    <li class="op"><a href="#contact">contact</a></li>
                 </ul>
             </div>
         </div>
-    </nav>
+    </div>
     <header>
         <div class="container">
             <div class="row d-flex align-content-center cont-height-1">
@@ -63,7 +73,7 @@
                     <h2 class="services-title">Featured Treatments</h2>
                     <div class="srv-flex d-flex justify-content-between">
                         <div class="cards-flex d-flex flex-column justify-content-between">
-                            <div class="cards-text d-flex flex-column align-items-center gap-2"> <!--copiar-->
+                            <div class="cards-text d-flex flex-column align-items-center gap-2">
                                 <div>
                                     <img src="/assets/img/section-2-01.png">
                                 </div>
@@ -73,7 +83,7 @@
                                 </div>
                             </div>
                             <div>
-                                <span class="services-btn">View Details</span>
+                                <span class="services-btn op">View Details</span>
                             </div>
                         </div>
                         <div class="cards-flex d-flex flex-column justify-content-between">
@@ -87,7 +97,7 @@
                                 </div>
                             </div>
                             <div>
-                                <span class="services-btn">View Details</span>
+                                <span class="services-btn op">View Details</span>
                             </div>
                         </div>
                         <div class="cards-flex d-flex flex-column justify-content-between">
@@ -101,7 +111,7 @@
                                 </div>           
                             </div>
                             <div>
-                                <span class="services-btn">View Details</span>
+                                <span class="services-btn op">View Details</span>
                             </div>
                         </div>
                         <div class="cards-flex d-flex flex-column justify-content-between">
@@ -115,7 +125,7 @@
                                 </div>            
                             </div>
                             <div>
-                                <span class="services-btn">View Details</span>
+                                <span class="services-btn op">View Details</span>
                             </div>
                         </div>
                     </div>
@@ -125,7 +135,7 @@
         <div class="container cont-height-3 d-flex flex-column justify-content-center" id="products">
             <div class="row d-flex align-items-center">
                 <div class="col">
-                    <div>
+                    <div class="img-resp">
                         <img src="assets/img/products.png"> 
                     </div>
                 </div>
@@ -150,7 +160,7 @@
         <div class="container cont-about" id="about">
             <div class="row d-flex align-items-center">
                 <div class="col">
-                    <div>
+                    <div class="img-resp">
                         <img src="/assets/img/pic-profile.png">
                     </div>
                 </div>
@@ -184,7 +194,9 @@
         <div class="container-fluid">
             <div class="row cont-height-5">
                 <div class="col-lg-5 d-flex justify-content-center align-items-center">
+                    <div class="img-resp">
                     <img src="./assets/img/quality-img.png">
+                    </div>
                 </div>
                 <div class="col-lg-7 d-flex justify-content-center align-items-center">
                     <div class="frame-37">
@@ -266,7 +278,7 @@
                                         </div>
                                         <div class="d-flex gap-2 justify-content-center align-items-center">
                                             <div>
-                                                <img src="/assets/img/test-icon.png">
+                                                <img src="/assets/img/test-icon-2.png">
                                             </div>
                                             <div>
                                                 <p class="test-client"><b>Emily</b>- 5 days ago</p>
@@ -283,7 +295,7 @@
                                         </div>
                                         <div class="d-flex gap-2 justify-content-center align-items-center">
                                             <div>
-                                                <img src="/assets/img/test-icon.png">
+                                                <img src="/assets/img/test-icon-3.png">
                                             </div>
                                             <div>
                                                 <p class="test-client"><b>Jessica</b> - 3 days ago</p>
@@ -292,16 +304,15 @@
                                     </div>
                                 </div>
                             </div>
-    
-                        </div>
+                        </div>                    
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                            <div class="circle-icon">
+                            <div class="circle-icon d-flex">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </div>
                         </button>
                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                            <div class="circle-icon">
+                            <div class="circle-icon d-flex">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </div>
@@ -335,17 +346,20 @@
                 </div>
             </div>
             <div class="col">
+                <a href="#home" class="d-flex justify-content-end">
+                    <img src="./assets/img/btn-to-top.png">
+                </a> 
                 <div class="d-flex justify-content-between gap-5">
-                    <ul class="d-flex gap-3 flex-column">
+                    <ul class="d-flex gap-3 flex-column ul-foo">
                         <li class="bold-footer">links</li>
-                        <li class="light-footer"><a href="#services">services</a></li>
-                        <li class="light-footer"><a href="#products">products</a></li>
+                        <li class="light-footer op"><a href="#services">services</a></li>
+                        <li class="light-footer op"><a href="#products">products</a></li>
                     </ul>
                     <ul class="d-flex gap-3 flex-column">
                         <li class="bold-footer">about</li>
-                        <li class="light-footer"><a href="#testimonials">testimonials</a></li>
+                        <li class="light-footer op"><a href="#testimonials">testimonials</a></li>
                     </ul>
-                    <ul class="d-flex gap-3 flex-column">
+                    <ul class="d-flex gap-3 flex-column ul-foo">
                         <li class="bold-footer">contact</li>
                         <li class="light-footer">1234 Elmwood Avenue</li>
                         <li class="light-footer">info@beautystudio.com</li>

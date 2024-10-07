@@ -1,0 +1,41 @@
+/************   nav    *************/
+
+.sticky-nav{
+    position: fixed;
+    top: 0px;
+    background-color: var(--light-grey);
+    z-index: 10000;
+    padding: 0px 100px;
+    box-shadow: 0px 4px 45px 0px #0000002E;
+  }
+  
+  .he-nav{
+    height: 10vh;
+  }
+  .navbar-br a{
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--black);
+    text-decoration: none;
+  }
+  .nav-ul{
+    margin-bottom: 0px;
+  }
+  .op:hover{
+    opacity: .5;
+    transition: all .3s;
+    cursor: pointer;
+  }
+  .nav-ul li{
+    list-style-type: none;
+  }
+  .nav-ul li a{
+    font-family: var(--font-secondary);
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    
+    text-transform: capitalize;
+  }

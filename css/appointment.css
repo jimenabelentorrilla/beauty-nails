@@ -1,0 +1,21 @@
+/************   appointment    *************/
+
+
+.bg-appo{
+    background-image: url("../assets/img/appointment.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 560px;
+  }
+  .appo-text h2{
+    font-family: var(--font-primary);
+    font-size: 64px;
+    color: var(--white);
+    font-weight: 400;
+  }
+  .appo-text p{
+    font-family: var(--font-secondary);
+    font-size: 20px;
+    color: var(--white);
+    font-weight: 500;
+  }

@@ -1,0 +1,54 @@
+/************   services    *************/
+
+.cont-height-2 {
+    height: 900px;
+  }
+  .col-services{
+    height: 100vh;
+    background-image: url("../assets/img/section-2-bg.png");
+    background-repeat: no-repeat;
+  }
+  .services-title{
+    font-family: var(--font-primary);
+    font-size: 64px;
+    font-weight: 400;
+    color: var(--brown);
+  }
+  .cards-flex{
+    width: 268px;
+    height: 416px;
+  }
+  .cards-text-flex{
+    text-align: center;
+  }
+  .cards-text h3{
+    font-family: var(--font-primary);
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--grey);
+  }
+  .cards-text p{
+    font-family: var(--font-secondary);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black);
+  }
+  .services-btn{
+    font-family: var(--font-secondary);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--brown);
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  .services-btn::after {
+    content: '';
+    width: 85%;
+    height: 3.6px; 
+    background-color: var(--brown);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }

@@ -1,0 +1,45 @@
+/************   quality    *************/
+
+
+.cont-height-5{
+    height: 1024px;
+  }
+  .frame-37{
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .qt-text h3{
+    font-family: var(--font-primary);
+    font-size: 40px;
+    color: var(--brown);
+  }
+  .qt-text p, .qt-card-text p {
+    font-family: var(--font-secondary);
+    font-size: 16px;
+    color: var(--black);
+    margin:0;
+  }
+  .qt-card-text h4{
+    font-family: var(--font-primary);
+    font-size: 20px;
+    color: var(--brown);
+  }
+  .qt-card-text{
+    width:360px;
+    margin:0;
+  }
+  .qt-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 360px;
+    height: 163px;
+  }
+  .qt-bloque-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 47px;
+  }

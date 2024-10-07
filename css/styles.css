@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Tan_meringue';
+  src:  url('/assets/fonts/tan_meringue-webfont.woff2') format('woff2'),
+        url('/assets/fonts/tan_meringue-webfont.woff') format('woff'),
+        url('/assets/fonts/TAN\ MERINGUE.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  /*colors*/
+  --white: #FFFFFF; 
+  --black: #000000;
+  --grey: #1E1E1E; 
+  --light-grey: #FFF9F6; 
+  --light-brown: #CF8673;
+  --brown: #78261A; 
+
+  /*fonts*/
+  --font-primary: 'Tan_meringue', sans-serif;
+  --font-secondary:  "Montserrat", sans-serif;
+}
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth; 
+}
+
+body{
+  background-color: var(--light-grey);
+}
+html{
+  font-size: clamp(1.25rem, 7.5vw + .5rem, 2rem);
+}
+
+.cont-height-1{
+  height: 600px;
+}
+
+/*Btn arrow*/
+.btn-arrow{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
+.img-resp{
+  width: 100%;
+}
+.img-resp img{
+  max-width: 100%;
+  height: auto;
+}
+
