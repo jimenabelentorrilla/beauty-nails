@@ -26,15 +26,34 @@
     <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body id="home">
-    <div class="container-fluid sticky-nav">
+    <div class="container-fluid fixed-top sticky-nav">
         <div class="row he-nav">
             <div class="col d-flex align-items-center">
                 <div class="navbar-br">
                     <a href="#home">BeautyNails</a>
                 </div>
             </div>
-            <div class="col">
-                <ul class="d-flex gap-5 justify-content-end nav-ul">
+            <div class="col d-flex align-items-center justify-content-end">
+                <div class="menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                    <i class="fa-solid fa-bars fa-xl" style="color: #000000;"></i>
+                </div>
+                <div class="nav-block">
+                    <ul class="d-flex justify-content-between nav-ul">
+                        <li class="op"><a href="#services">services</a></li>
+                        <li class="op"><a href="#testimonials">testimonials</a></li>
+                        <li class="op"><a href="#about">about</a></li>
+                        <li class="op"><a href="#contact">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-----Offcanvas-->
+        <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+            <div class="offcanvas-body">
+                <div class="offcanvas-header navbar-br">
+                    <a href="#home">BeautyNails</a>
+                </div>
+                <ul class="d-flex flex-column nav-ul text-align-center">
                     <li class="op"><a href="#services">services</a></li>
                     <li class="op"><a href="#testimonials">testimonials</a></li>
                     <li class="op"><a href="#about">about</a></li>
@@ -42,7 +61,9 @@
                 </ul>
             </div>
         </div>
+        <!-----Fin Offcanvas-->
     </div>
+    <!-------
     <header>
         <div class="container">
             <div class="row d-flex align-content-center cont-height-1">
@@ -376,11 +397,12 @@
             </div>
         </div>
     </footer>
+    ------>
 
-    <!--Button to bottom---->
+    <!--Button to bottom--
     <a href="#contact" class="btn-arrow d-flex justify-content-end">
         <img src="/assets/img/btn-arrow.png">
-    </a>
+    </a>-->
     
     <!--Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

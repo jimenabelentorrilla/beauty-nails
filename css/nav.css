@@ -1,26 +1,23 @@
 /************   nav    *************/
 
 .sticky-nav{
-    position: fixed;
-    top: 0px;
     background-color: var(--light-grey);
     z-index: 10000;
-    padding: 0px 100px;
+    padding: 1em 2em;
     box-shadow: 0px 4px 45px 0px #0000002E;
   }
   
-  .he-nav{
-    height: 10vh;
-  }
+  
   .navbar-br a{
     font-family: var(--font-primary);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem; /*24px*/
     color: var(--black);
     text-decoration: none;
   }
   .nav-ul{
-    margin-bottom: 0px;
+    margin-bottom: 0;
+    gap: 2rem;
   }
   .op:hover{
     opacity: .5;
@@ -33,9 +30,37 @@
   .nav-ul li a{
     font-family: var(--font-secondary);
     color: var(--black);
-    font-size: 16px;
+    font-size: 1rem; /*16px*/
     font-weight: 400;
     text-decoration: none;
-    
     text-transform: capitalize;
   }
+  .nav-block{
+    display: flex;
+  }
+  .offcanvas.offcanvas-top{
+    height: 60vh;
+  }
+
+@media (width < 575.99px){
+  .nav-block{
+    display: none;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991.99px){
+  .nav-block{
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px){
+    .menu{
+      display: none;
+    }
+}
+@media (width > 1200px){
+  .menu{
+    display: none;
+  }
+}

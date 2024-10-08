@@ -32,7 +32,7 @@ body{
   background-color: var(--light-grey);
 }
 html{
-  font-size: clamp(1.25rem, 7.5vw + .5rem, 2rem);
+  font-size: 16px;
 }
 
 .cont-height-1{
