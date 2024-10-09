@@ -1,13 +1,13 @@
 /************   nav    *************/
-
+.he-nav{
+  height: 15vh !important;
+}
 .sticky-nav{
     background-color: var(--light-grey);
-    z-index: 10000;
-    padding: 1em 2em;
-    box-shadow: 0px 4px 45px 0px #0000002E;
+  /*box-shadow: 0px 4px 45px 0px #0000002E;*/
+  /*  padding: 0em 7em;*/
+  width: 85%;
   }
-  
-  
   .navbar-br a{
     font-family: var(--font-primary);
     font-weight: 400;

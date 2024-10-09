@@ -26,19 +26,36 @@
     <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body id="home">
-    <div class="container-fluid fixed-top sticky-nav">
-        <div class="row he-nav">
-            <div class="col d-flex align-items-center">
-                <div class="navbar-br">
-                    <a href="#home">BeautyNails</a>
+    <header>
+        <!-----Nav---->
+        <div class="container-fluid  sticky-nav">
+            <div class="row he-nav d-flex justify-items-between">
+                <div class="col d-flex align-items-center">
+                    <div class="navbar-br">
+                        <a href="#home">BeautyNails</a>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-center justify-content-end">
+                    <div class="menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                        <i class="fa-solid fa-bars fa-xl" style="color: #000000;"></i>
+                    </div>
+                    <div class="nav-block">
+                        <ul class="d-flex justify-content-between nav-ul">
+                            <li class="op"><a href="#services">services</a></li>
+                            <li class="op"><a href="#testimonials">testimonials</a></li>
+                            <li class="op"><a href="#about">about</a></li>
+                            <li class="op"><a href="#contact">contact</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div class="col d-flex align-items-center justify-content-end">
-                <div class="menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
-                    <i class="fa-solid fa-bars fa-xl" style="color: #000000;"></i>
-                </div>
-                <div class="nav-block">
-                    <ul class="d-flex justify-content-between nav-ul">
+            <!-----Offcanvas-->
+            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                <div class="offcanvas-body">
+                    <div class="offcanvas-header navbar-br">
+                        <a href="#home">BeautyNails</a>
+                    </div>
+                    <ul class="d-flex flex-column nav-ul text-align-center">
                         <li class="op"><a href="#services">services</a></li>
                         <li class="op"><a href="#testimonials">testimonials</a></li>
                         <li class="op"><a href="#about">about</a></li>
@@ -46,28 +63,13 @@
                     </ul>
                 </div>
             </div>
+            <!-----Fin Offcanvas-->
         </div>
-        <!-----Offcanvas-->
-        <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
-            <div class="offcanvas-body">
-                <div class="offcanvas-header navbar-br">
-                    <a href="#home">BeautyNails</a>
-                </div>
-                <ul class="d-flex flex-column nav-ul text-align-center">
-                    <li class="op"><a href="#services">services</a></li>
-                    <li class="op"><a href="#testimonials">testimonials</a></li>
-                    <li class="op"><a href="#about">about</a></li>
-                    <li class="op"><a href="#contact">contact</a></li>
-                </ul>
-            </div>
-        </div>
-        <!-----Fin Offcanvas-->
-    </div>
-    <!-------
-    <header>
-        <div class="container">
-            <div class="row d-flex align-content-center cont-height-1">
-                <div class="col">
+    
+        <!--------Home------>
+        <div class="container header-flex">
+            <div class="row">
+                <div class=" col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center">
                     <div class="header-text">
                         <h1>Elevate your <br>nails & shine</h1>
                         <p>For beautiful nails, you've come to the right place</p>
@@ -79,14 +81,15 @@
                         </button>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="header-img d-flex justify-content-center align-items-center">
+                <div class="col d-flex align-items-center">
+                    <div class="header-img">
                         <img src="/assets/img/header-img.png">
                     </div>
                 </div>
             </div>
         </div>
     </header>
+    <!-------
     <main>
         <div class="container">
             <div class="row d-flex align-content-center cont-height-2" id="services">

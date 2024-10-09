@@ -34,9 +34,12 @@ body{
 html{
   font-size: 16px;
 }
-
-.cont-height-1{
-  height: 600px;
+header{
+  height:100vh;
+  background-image: url("../assets/img/nails-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 55vh;
 }
 
 /*Btn arrow*/
