@@ -16,14 +16,16 @@
   font-family: var(--font-primary);
   color: var(--brown);
   font-size: 2.5rem;
-  font-weight: 400; 
+  font-weight: 400;
+  line-height: 1.8; 
 }
 
 .prod-text p {
   font-family: var(--font-secondary);
   color: var(--black);
-  font-size: 1.5rem;
-  font-weight: 400; 
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.5; 
 }
 
 .bold {
@@ -68,8 +70,7 @@
   .prod-text p {
     font-size: 1rem;
   }
-  .img-resp {
-    width: 100%; 
+  .img-resp { 
     display: flex;
     justify-content: center;
   }
@@ -99,7 +100,6 @@
     font-size: 1rem;
   }
   .img-resp {
-    width: 75%; 
     display: flex;
     justify-content: center;
   }
@@ -107,13 +107,32 @@
     font-size: 1rem;
   }
 }
-
+/*Responsive*/
 @media (min-width: 992px) and (max-width: 1199.99px) {
   .prod-f {
     flex-direction: row;
   }
+  .padding-prod{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+  }
+  .prod-text{
+    text-align: center;
+  }
+  .prod-text h3 {
+    font-size: 2rem;
+  }
+  .prod-text p {
+    font-size: 1rem;
+  }
   .img-resp {
-    width: 50%; 
+    display: flex;
+    justify-content: center;
+  }
+  .cta-2 span {
+    font-size: 1rem;
   }
 }
 
