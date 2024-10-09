@@ -1,54 +1,94 @@
 /************   services    *************/
 
 .cont-height-2 {
-    height: 900px;
+  min-height: 100vh;
+  padding: 4rem 0rem;
+}
+
+.col-services {
+  min-height: 100vh; /* Cambiado a min-height para mejor comportamiento */
+  background-image: url("../assets/img/section-2-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.services-title {
+  font-family: var(--font-primary);
+  font-size: 4rem; 
+  font-weight: 400;
+  color: var(--brown);
+}
+
+.srv-flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.cards-flex {
+  width: 100%;
+  max-width: 16.75rem;
+  height: auto;
+}
+
+.cards-text-flex {
+  text-align: center;
+}
+
+.cards-text h3 {
+  font-family: var(--font-primary);
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--grey);
+}
+
+.cards-text p {
+  font-family: var(--font-secondary);
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--black);
+}
+
+.services-btn {
+  font-family: var(--font-secondary);
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--brown);
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.services-btn::after {
+  content: '';
+  width: 85%;
+  height: 3.6px;
+  background-color: var(--brown);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+/* Responsivo */
+@media (max-width: 575.99px) {
+  .srv-flex {
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem; /* Ajustado */
   }
-  .col-services{
-    height: 100vh;
-    background-image: url("../assets/img/section-2-bg.png");
-    background-repeat: no-repeat;
+  .services-title {
+    font-size: 2rem; 
   }
-  .services-title{
-    font-family: var(--font-primary);
-    font-size: 64px;
-    font-weight: 400;
-    color: var(--brown);
+}
+
+@media (min-width: 576px) and (max-width: 991.99px) {
+  .srv-flex {
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem; /* Ajustado */
   }
-  .cards-flex{
-    width: 268px;
-    height: 416px;
+  .services-title {
+    font-size: 3rem; 
   }
-  .cards-text-flex{
-    text-align: center;
-  }
-  .cards-text h3{
-    font-family: var(--font-primary);
-    font-size: 24px;
-    font-weight: 400;
-    color: var(--grey);
-  }
-  .cards-text p{
-    font-family: var(--font-secondary);
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--black);
-  }
-  .services-btn{
-    font-family: var(--font-secondary);
-    font-size: 18px;
-    font-weight: 600;
-    color: var(--brown);
-    position: relative;
-    display: inline-block;
-    padding-bottom: 5px;
-  }
-  
-  .services-btn::after {
-    content: '';
-    width: 85%;
-    height: 3.6px; 
-    background-color: var(--brown);
-    position: absolute;
-    left: 0;
-    bottom: 0;
-  }
+}

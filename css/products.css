@@ -1,30 +1,122 @@
 /************   products    *************/
 
-.cont-height-3{
-    height: 1000px;
+.cont-height-3 {
+  min-height: 100vh; 
+  padding: 4rem 0rem;
+}
+.prod-f {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.padding-prod{
+  padding: 1rem;
+}
+.prod-text h3 {
+  font-family: var(--font-primary);
+  color: var(--brown);
+  font-size: 2.5rem;
+  font-weight: 400; 
 }
 
-  .prod-text h3{
-    font-family: var(--font-primary);
-    color: var(--brown);
-    font-size: 40px;
-    font-weight: 400;
+.prod-text p {
+  font-family: var(--font-secondary);
+  color: var(--black);
+  font-size: 1.5rem;
+  font-weight: 400; 
+}
+
+.bold {
+  color: var(--brown);
+}
+
+.cta-2 {
+  background-color: var(--white) !important;
+  padding: 10px 22px;
+  border-radius: 40px;
+  border: none;
+  box-shadow: 0px 4px 45px 0px #0000002E;
+}
+
+.cta-2 span {
+  font-size: 1.125rem;
+}
+
+.img-star-prod {
+  display: flex;
+  justify-content: end;
+}
+
+/* Media queries */
+@media (max-width: 575.99px) {
+  .prod-f {
+    flex-direction: column;
+    justify-content: center;
   }
-  .prod-text p{
-    font-family: var(--font-secondary);
-    color: var(--black);
-    font-size: 24px;
-    font-weight: 400;
+  .padding-prod{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
   }
-  .bold{
-    color: var(--brown)
+  .prod-text{
+    text-align: center;
   }
-  .cta-2{
-    background-color: var(--white) !important;
-    padding: 10px 22px;
-    border-radius: 40px;
-    border: none;
-    width: 200px;
-    height: 70px;
-    box-shadow: 0px 4px 45px 0px #0000002E;
+  .prod-text h3 {
+    font-size: 1.863rem; 
   }
+  .prod-text p {
+    font-size: 1rem;
+  }
+  .img-resp {
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+  }
+  .cta-2 span {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991.99px) {
+  .prod-f {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .padding-prod{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+  }
+  .prod-text{
+    text-align: center;
+  }
+  .prod-text h3 {
+    font-size: 2rem;
+  }
+  .prod-text p {
+    font-size: 1rem;
+  }
+  .img-resp {
+    width: 75%; 
+    display: flex;
+    justify-content: center;
+  }
+  .cta-2 span {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  .prod-f {
+    flex-direction: row;
+  }
+  .img-resp {
+    width: 50%; 
+  }
+}
+
+@media (min-width: 1200px) {
+  
+}
