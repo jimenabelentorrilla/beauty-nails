@@ -1,21 +1,39 @@
 /************   appointment    *************/
 
-
 .bg-appo{
     background-image: url("../assets/img/appointment.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 560px;
+    min-height: 80vh;
   }
   .appo-text h2{
     font-family: var(--font-primary);
-    font-size: 64px;
+    font-size: 4rem; /*64px;*/
     color: var(--white);
     font-weight: 400;
   }
   .appo-text p{
     font-family: var(--font-secondary);
-    font-size: 20px;
+    font-size: 1.25rem; /*20px;*/
     color: var(--white);
     font-weight: 500;
   }
+
+ /* Responsive */
+ @media (max-width: 575.99px) {
+  .appo-text h2{
+    font-size: 2.5rem;
+  }
+  .appo-text p{
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991.99px) {
+  .appo-text h2{
+    font-size: 3rem;
+  }
+  .appo-text p{
+    font-size: 1.125rem;
+  }
+}

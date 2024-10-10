@@ -22,6 +22,10 @@
   width: 100%;
   max-width: 16.75rem;
   height: auto;
+  transition: .3s;
+}
+.cards-flex:hover{
+  transform: scale(1.05);
 }
 
 .cards-text-flex {
