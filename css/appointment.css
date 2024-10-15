@@ -2,6 +2,8 @@
 
 .bg-appo{
   background-image: url("../assets/img/appointment.png");
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 80vh;

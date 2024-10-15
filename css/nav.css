@@ -18,9 +18,9 @@
   margin-bottom: 0;
   gap: 2rem;
 }
-.op:hover{
-  opacity: .5;
-  transition: all .3s;
+.op a:hover{
+  color: var(--light-brown);
+  transition: ease-in .3s;
   cursor: pointer;
 }
 .nav-ul li{
