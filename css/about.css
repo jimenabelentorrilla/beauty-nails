@@ -1,34 +1,52 @@
 /************   about    *************/
 
 .cont-height-4{
-    background-color: var(--light-brown);
-    background-image: url("../assets/img/circles.png");
-    background-repeat: no-repeat;
-    background-position-y: bottom;
-    background-size: contain;
-    min-height: 100vh;
-  }
-  .text-p{
-    width: 80%;
-    text-align: center;
-  }
-  .text-p p{
-    font-family: var(--font-primary);
-    font-size: 40px;
-    color: var(--white);
-  }
-  .text-p span{
-    color: var(--brown);
-  }
-  /* Responsive */
+  background-color: var(--light-brown);
+  background-image: url("../assets/img/circles.png");
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-size: contain;
+  min-height: 100vh;
+}
+.text-p{
+  width: 80%;
+  text-align: center;
+}
+.text-p p{
+  font-family: var(--font-primary);
+  color: var(--white);
+}
+.text-p span{
+  color: var(--brown);
+}
+
+/* Responsive */
 @media (max-width: 575.99px) {
   .text-p p{
-    font-size: 1.25rem;
+    font-size: 1.625rem /*26px*/
   }
 }
 
 @media (min-width: 576px) and (max-width: 991.99px) {
   .text-p p{
-    font-size: 1.875rem;
+    font-size: 1.875rem; /*30px*/
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  .text-p p{
+    font-size: 2.125rem; /*34px*/
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+  .text-p p{
+    font-size: 2.375rem; /*38px*/
+  }
+}
+
+@media (min-width: 1400px) {
+  .text-p p{
+    font-size: 2.5rem; /*40px*/
   }
 }

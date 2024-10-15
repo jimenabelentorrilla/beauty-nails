@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'Tan_meringue';
   src:  url('/assets/fonts/tan_meringue-webfont.woff2') format('woff2'),
-        url('/assets/fonts/tan_meringue-webfont.woff') format('woff'),
-        url('/assets/fonts/TAN\ MERINGUE.ttf') format('truetype'); 
+    url('/assets/fonts/tan_meringue-webfont.woff') format('woff'),
+    url('/assets/fonts/TAN\ MERINGUE.ttf') format('truetype'); 
   font-weight: normal;
   font-style: normal;
 }

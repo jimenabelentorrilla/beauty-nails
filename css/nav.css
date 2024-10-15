@@ -1,46 +1,45 @@
 /************   nav    *************/
+
 .he-nav{
   height: 15vh !important;
 }
 .sticky-nav{
-    background-color: var(--light-grey);
-  /*box-shadow: 0px 4px 45px 0px #0000002E;*/
-  /*  padding: 0em 7em;*/
+  background-color: var(--light-grey);
   width: 85%;
-  }
-  .navbar-br a{
-    font-family: var(--font-primary);
-    font-weight: 400;
-    font-size: 1.5rem; /*24px*/
-    color: var(--black);
-    text-decoration: none;
-  }
-  .nav-ul{
-    margin-bottom: 0;
-    gap: 2rem;
-  }
-  .op:hover{
-    opacity: .5;
-    transition: all .3s;
-    cursor: pointer;
-  }
-  .nav-ul li{
-    list-style-type: none;
-  }
-  .nav-ul li a{
-    font-family: var(--font-secondary);
-    color: var(--black);
-    font-size: 1rem; /*16px*/
-    font-weight: 400;
-    text-decoration: none;
-    text-transform: capitalize;
-  }
-  .nav-block{
-    display: flex;
-  }
-  .offcanvas.offcanvas-top{
-    height: 60vh;
-  }
+}
+.navbar-br a{
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 1.5rem; /*24px*/
+  color: var(--black);
+  text-decoration: none;
+}
+.nav-ul{
+  margin-bottom: 0;
+  gap: 2rem;
+}
+.op:hover{
+  opacity: .5;
+  transition: all .3s;
+  cursor: pointer;
+}
+.nav-ul li{
+  list-style-type: none;
+}
+.nav-ul li a{
+  font-family: var(--font-secondary);
+  color: var(--black);
+  font-size: 1rem; /*16px*/
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.nav-block{
+  display: flex;
+}
+.offcanvas, .offcanvas-top{
+  height: 60vh;
+}
 
 @media (width < 575.99px){
   .nav-block{
@@ -54,12 +53,13 @@
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199.99px){
-    .menu{
-      display: none;
-    }
+@media (min-width: 992px) and (max-width: 1399.99px){
+  .menu{
+    display: none;
+  }
 }
-@media (width > 1200px){
+
+@media (min-width: 1400px) {
   .menu{
     display: none;
   }

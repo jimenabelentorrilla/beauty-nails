@@ -8,33 +8,29 @@
   display: flex;
   align-items: center;
 }
-  .about-text h3{
-    font-family: var(--font-primary);
-    font-size: 5.125rem;
-    color: var(--brown);
-    margin: 0;
-  }
-  .about-text h4{
-    font-family: var(--font-primary);
-    font-size: 2rem;
-    color: var(--light-brown);
-    margin: 0;
-  }
-  .about-text p{
-    font-family: var(--font-secondary);
-    font-size: 1.25rem;
-    color: var(--black);
-  }
-  .cta-3{
-    background-color: var(--white) !important;
-    padding: 10px 22px;
-    border-radius: 40px;
-    border: none;
-    width: 215px;
-    height: 70px;
-    box-shadow: 0px 4px 45px 0px #0000002E;
-  
-  }
+.about-text h3{
+  font-family: var(--font-primary);
+  color: var(--brown);
+  margin: 0;
+}
+.about-text h4{
+  font-family: var(--font-primary);
+  color: var(--light-brown);
+  margin: 0;
+}
+.about-text p{
+  font-family: var(--font-secondary);
+  color: var(--black);
+}
+.cta-3{
+  background-color: var(--white) !important;
+  padding: 10px 22px;
+  border-radius: 40px;
+  border: none;
+  width: 215px;
+  height: 70px;
+  box-shadow: 0px 4px 45px 0px #0000002E;
+}
 
   /* Responsive */
 @media (max-width: 575.99px) {
@@ -42,13 +38,13 @@
     flex-direction: column;
   }
   .about-text h3{
-    font-size:3.25rem;
+    font-size: 2.625rem; /*42*/
   }
   .about-text h4{
-    font-size: 1.25rem;
+    font-size: 1.25rem; /*20px*/
   }
   .about-text p{
-    font-size: 1rem;
+    font-size: 1rem; /*16px*/
   }
 }
 
@@ -57,12 +53,48 @@
     flex-direction: column;
   }
   .about-text h3{
-    font-size: 4.5rem;
+    font-size: 3.25rem; /*52px*/
   }
   .about-text h4{
-    font-size: 1.375rem;
+    font-size: 1.5rem; /*24px*/
   }
   .about-text p{
-    font-size: 1.125rem;
+    font-size: 1rem; /*16px*/
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  .about-text h3{
+    font-size: 3.875rem; /*62px*/
+  }
+  .about-text h4{
+    font-size: 1.75rem; /*28px*/
+  }
+  .about-text p{
+    font-size: 1.125rem; /*18px*/
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+  .about-text h3{
+    font-size: 4.5rem; /*72px*/
+  }
+  .about-text h4{
+    font-size: 1.875rem; /*30px*/
+  }
+  .about-text p{
+    font-size: 1.188rem; /*19px*/
+  }
+}
+
+@media (min-width: 1400px) {
+  .about-text h3{
+    font-size: 5.125rem; /*82px*/
+  }
+  .about-text h4{
+    font-size: 2rem; /*32px*/
+  }
+  .about-text p{
+    font-size: 1.25rem; /*20px*/
   }
 }
