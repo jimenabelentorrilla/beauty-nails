@@ -33,7 +33,9 @@
   border-radius: 40px;
   border: none;
   box-shadow: 0px 4px 45px 0px #0000002E;
+  transition: ease-in .1s;
 }
+
 .img-star-prod {
   display: flex;
   justify-content: end;

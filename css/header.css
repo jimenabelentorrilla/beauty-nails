@@ -24,6 +24,11 @@
   height: 4.375rem; /*70px*/
   box-shadow: 0px 4px 45px 0px #0000002E;
   font-size: 1rem;
+  transition: ease-in .1s;
+}
+.cta:hover, .cta-2:hover, .cta-3:hover{
+  cursor: pointer;
+  transform: scale(1.05);
 }
   
 .cta span, .cta-2 span, .cta-3 span{
