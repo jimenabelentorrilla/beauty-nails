@@ -1,4 +1,4 @@
-/************   about-me    *************/
+/***about-me***/
 
 .cont-about{
   min-height: 100vh;
@@ -9,16 +9,19 @@
   align-items: center;
 }
 .about-text h3{
+  font-size: clamp(2.625rem, 1.295rem + 4.255vw, 5.125rem);
   font-family: var(--font-primary);
   color: var(--brown);
   margin: 0;
 }
 .about-text h4{
+  font-size: clamp(1.25rem, 0.851rem + 1.277vw, 2rem);
   font-family: var(--font-primary);
   color: var(--light-brown);
   margin: 0;
 }
 .about-text p{
+  font-size: clamp(1rem, 0.867rem + 0.426vw, 1.25rem);
   font-family: var(--font-secondary);
   color: var(--black);
 }
@@ -38,64 +41,10 @@
   .about-flex{
     flex-direction: column;
   }
-  .about-text h3{
-    font-size: 2.625rem; /*42*/
-  }
-  .about-text h4{
-    font-size: 1.25rem; /*20px*/
-  }
-  .about-text p{
-    font-size: 1rem; /*16px*/
-  }
 }
 
 @media (min-width: 576px) and (max-width: 991.99px) {
   .about-flex{
     flex-direction: column;
-  }
-  .about-text h3{
-    font-size: 3.25rem; /*52px*/
-  }
-  .about-text h4{
-    font-size: 1.5rem; /*24px*/
-  }
-  .about-text p{
-    font-size: 1rem; /*16px*/
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1199.99px) {
-  .about-text h3{
-    font-size: 3.875rem; /*62px*/
-  }
-  .about-text h4{
-    font-size: 1.75rem; /*28px*/
-  }
-  .about-text p{
-    font-size: 1.125rem; /*18px*/
-  }
-}
-
-@media (min-width: 1200px) and (max-width: 1399.99px) {
-  .about-text h3{
-    font-size: 4.5rem; /*72px*/
-  }
-  .about-text h4{
-    font-size: 1.875rem; /*30px*/
-  }
-  .about-text p{
-    font-size: 1.188rem; /*19px*/
-  }
-}
-
-@media (min-width: 1400px) {
-  .about-text h3{
-    font-size: 5.125rem; /*82px*/
-  }
-  .about-text h4{
-    font-size: 2rem; /*32px*/
-  }
-  .about-text p{
-    font-size: 1.25rem; /*20px*/
   }
 }

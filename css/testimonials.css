@@ -1,4 +1,4 @@
-/************   testimonials    *************/
+/***testimonials***/
 
 .cont-height-6{
   background-image: url("../assets/img/Testimonials.png");
@@ -9,11 +9,13 @@
 }
   
 .test-text{
+  font-size: clamp(1rem, 0.968rem + 1.702vw, 2.5rem);
   font-family: var(--font-primary);
   color: var(--brown);
   text-align: center;
 }
 .test-client{
+  font-size: clamp(1rem, 0.535rem + 1.489vw, 1.875rem);
   font-family: var(--font-secondary);
   color:var(--black);
   margin: 0;
@@ -22,50 +24,4 @@
   background-color: var(--brown);
   border-radius: 50px;
   padding: 12px;
-}
-
-/* Responsive */
-@media (max-width: 575.99px) {
-  .test-text{
-    font-size: 1.5rem; /*24px;*/
-  }
-  .test-client{
-    font-size: 1rem; /*16px;*/
-  }
-}
-
-@media (min-width: 576px) and (max-width: 991.99px) {
-  .test-text{
-    font-size: 2.2rem; /*35.2px;*/
-  }
-  .test-client{
-    font-size: 1.075rem; /*17.2px;*/
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1199.99px) {
-  .test-text{
-    font-size: 2.25rem; /*36px*/ 
-  }
-  .test-client{
-    font-size: 1.563rem; /*25px*/
-  }
-}
-
-@media (min-width: 1200px) and (max-width: 1399.99px) {
-  .test-text{
-    font-size: 2.375rem; /*38px*/
-  }
-  .test-client{
-    font-size: 1.625rem; /*26px*/
-  }
-}
-
-@media (min-width: 1400px) {
-  .test-text{
-    font-size: 2.5rem; /*40px;*/
-  }
-  .test-client{
-    font-size: 2rem; /*32px;*/
-  }
 }

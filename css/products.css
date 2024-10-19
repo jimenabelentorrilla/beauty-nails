@@ -1,4 +1,4 @@
-/************   products    *************/
+/***products***/
 
 .cont-height-3 {
   min-height: 100vh; 
@@ -13,12 +13,14 @@
   padding: 1rem;
 }
 .prod-text h3 {
+  font-size: clamp(1.563rem, 1.064rem + 1.596vw, 2.5rem);
   font-family: var(--font-primary);
   color: var(--brown);
   font-weight: 400;
   line-height: 1.8; 
 }
 .prod-text p {
+  font-size: clamp(1rem, 0.84rem + 0.511vw, 1.3rem);
   font-family: var(--font-secondary);
   color: var(--black);
   font-weight: 400;
@@ -56,18 +58,9 @@
   .prod-text{
     text-align: center;
   }
-  .prod-text h3 {
-    font-size: 1.625rem; /*26px*/
-  }
-  .prod-text p {
-    font-size: 1rem; /*16px*/
-  }
   .img-resp { 
     display: flex;
     justify-content: center;
-  }
-  .cta-2 span {
-    font-size: 1rem; /*16px*/
   }
 }
 
@@ -85,21 +78,13 @@
   .prod-text{
     text-align: center;
   }
-  .prod-text h3 {
-    font-size: 1.75rem; /*28px*/
-  }
-  .prod-text p {
-    font-size: 1rem; /*16px*/
-  }
   .img-resp {
     display: flex;
     justify-content: center;
   }
-  .cta-2 span {
-    font-size: 1rem; /*16px*/
-  }
 }
 /*Responsive*/
+
 @media (min-width: 992px) and (max-width: 1199.99px) {
   .prod-f {
     flex-direction: row;
@@ -113,42 +98,8 @@
   .prod-text{
     text-align: center;
   }
-  .prod-text h3 {
-    font-size: 1.875rem; /*30px*/
-  }
-  .prod-text p {
-    font-size: 1rem; /*16px*/
-  }
   .img-resp {
     display: flex;
     justify-content: center;
-  }
-  .cta-2 span {
-    font-size: 1.125rem; /*18px*/
-  }
-}
-
-
-@media (min-width: 1200px) and (max-width: 1399.99px) {
-  .prod-text h3 {
-    font-size: 2rem; /*32px*/
-  }
-  .prod-text p {
-    font-size: 1.125rem; /*18px*/
-  }
-  .cta-2 span {
-    font-size: 1.3rem; /*20.8px*/
-  }
-}
-
-@media (min-width: 1400px) {
-  .prod-text h3 {
-    font-size: 2.5rem; /*40px*/
-  }
-  .prod-text p {
-    font-size: 1.3rem; /*20.8px*/
-  }
-  .cta-2 span {
-    font-size: 1.125rem; /*18px*/
   }
 }

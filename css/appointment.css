@@ -1,4 +1,4 @@
-/************   appointment    *************/
+/***appointment***/
 
 .bg-appo{
   background-image: url("../assets/img/appointment.png");
@@ -9,57 +9,14 @@
   min-height: 80vh;
 }
 .appo-text h2{
+  font-size: clamp(2.5rem, 1.702rem + 2.553vw, 4rem);
   font-family: var(--font-primary);
   color: var(--white);
   font-weight: 400;
 }
 .appo-text p{
+  font-size: clamp(1rem, 0.867rem + 0.426vw, 1.25rem);
   font-family: var(--font-secondary);
   color: var(--white);
   font-weight: 500;
-}
-
- /* Responsive */
-@media (max-width: 575.99px) {
-  .appo-text h2{
-    font-size: 2.5rem; /*40px*/
-  }
-  .appo-text p{
-    font-size: 1rem; /*16px*/
-  }
-}
-
-@media (min-width: 576px) and (max-width: 991.99px) {
-  .appo-text h2{
-    font-size: 3.125rem; /*50px*/
-  }
-  .appo-text p{
-    font-size: 1rem; /*16px;*/
-  }
-}
-@media (min-width: 992px) and (max-width: 1199.99px) {
-  .appo-text h2{
-    font-size: 3.5rem; /*56px;*/
-  }
-  .appo-text p{
-    font-size: 1.125rem; /*18px;*/
-  }
-}
-
-@media (min-width: 1200px) and (max-width: 1399.99px) {
-  .appo-text h2{
-    font-size: 3.75rem; /*60px;*/
-  }
-  .appo-text p{
-    font-size: 1.25rem; /*20px;*/
-  }
-}
-
-@media (min-width: 1400px) {
-  .appo-text h2{
-    font-size: 4rem; /*64px;*/
-  }
-  .appo-text p{
-    font-size: 1.25rem; /*20px;*/
-  }
 }

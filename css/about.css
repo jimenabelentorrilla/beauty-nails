@@ -1,4 +1,4 @@
-/************   about    *************/
+/***about***/
 
 .cont-height-4{
   background-color: var(--light-brown);
@@ -14,40 +14,10 @@
   text-align: center;
 }
 .text-p p{
+  font-size: clamp(1.625rem, 1.16rem + 1.489vw, 2.5rem);
   font-family: var(--font-primary);
   color: var(--white);
 }
 .text-p span{
   color: var(--brown);
-}
-
-/* Responsive */
-@media (max-width: 575.99px) {
-  .text-p p{
-    font-size: 1.625rem /*26px*/
-  }
-}
-
-@media (min-width: 576px) and (max-width: 991.99px) {
-  .text-p p{
-    font-size: 1.875rem; /*30px*/
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1199.99px) {
-  .text-p p{
-    font-size: 2.125rem; /*34px*/
-  }
-}
-
-@media (min-width: 1200px) and (max-width: 1399.99px) {
-  .text-p p{
-    font-size: 2.375rem; /*38px*/
-  }
-}
-
-@media (min-width: 1400px) {
-  .text-p p{
-    font-size: 2.5rem; /*40px*/
-  }
 }

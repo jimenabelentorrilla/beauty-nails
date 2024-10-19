@@ -1,4 +1,4 @@
-/************   nav    *************/
+/***nav***/
 
 .he-nav{
   height: 15vh !important;
@@ -38,7 +38,7 @@
   display: flex;
 }
 .offcanvas, .offcanvas-top{
-  height: 60vh;
+  min-height: 60vh;
 }
 
 @media (width < 575.99px){

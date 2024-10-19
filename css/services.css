@@ -1,4 +1,4 @@
-/************   services    *************/
+/***services***/
 
 .cont-height-2 {
   min-height: 100vh;
@@ -6,6 +6,7 @@
 }
 
 .services-title {
+  font-size: clamp(2rem, 0.936rem + 3.404vw, 4rem);
   font-family: var(--font-primary);
   font-weight: 400;
   color: var(--brown);
@@ -32,18 +33,21 @@
 }
 
 .cards-text h3 {
+  font-size: clamp(1.125rem, 0.926rem + 0.638vw, 1.5rem);
   font-family: var(--font-primary);
   font-weight: 400;
   color: var(--grey);
 }
 
 .cards-text p {
+  font-size: 1rem;
   font-family: var(--font-secondary);
   font-weight: 400;
   color: var(--black);
 }
 
 .services-btn {
+  font-size: 1.125rem;
   font-family: var(--font-secondary);
   font-weight: 600;
   color: var(--brown);
@@ -63,25 +67,12 @@
 }
 
 /* Responsive */
+
 @media (max-width: 575.99px) {
   .srv-flex {
     flex-direction: column;
     align-items: center;
     gap: 3rem; 
-  }
-  .services-title {
-    font-size: 2rem; 
-  }
-  .cards-text h3 {
-    font-size: 1.125rem; /*18px*/
-  }
-  
-  .cards-text p {
-    font-size: 1rem; /*16px*/
-  }
-  
-  .services-btn {
-    font-size: 1.125rem; /*18px*/
   }
 }
 
@@ -90,70 +81,5 @@
     flex-direction: column;
     align-items: center;
     gap: 3rem; 
-  }
-  .services-title {
-    font-size: 3rem; 
-  }
-  .cards-text h3 {
-    font-size: 1.25rem; /*20px*/
-  }
-  
-  .cards-text p {
-    font-size: 1rem; /*16px*/
-  }
-  
-  .services-btn {
-    font-size: 1.125rem; /*18px*/
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1199.99px) {
-  .services-title {
-    font-size: 3.5rem; /*56px*/
-  }
-  .cards-text h3 {
-    font-size: 1.375rem; /*22px*/
-  }
-  
-  .cards-text p {
-    font-size: 1rem; /*16px*/
-  }
-  
-  .services-btn {
-    font-size: 1.125rem; /*18px*/
-  }
-}
-
-@media (min-width: 1200px) and (max-width: 1399.99px) {
-  .services-title {
-    font-size: 3.75rem; /*60px*/
-  }
-  .cards-text h3 {
-    font-size: 1.375rem; /*22px*/
-  }
-  
-  .cards-text p {
-    font-size: 1rem; /*16px*/
-  }
-  
-  .services-btn {
-    font-size: 1.125rem; /*18px*/
-  }
-}
-
-@media (min-width: 1400px) {
-  .services-title {
-    font-size: 4rem; /*64px*/
-  }
-  .cards-text h3 {
-    font-size: 1.5rem; /*24px*/
-  }
-  
-  .cards-text p {
-    font-size: 1rem; /*16px*/
-  }
-  
-  .services-btn {
-    font-size: 1.125rem; /*18px*/
   }
 }

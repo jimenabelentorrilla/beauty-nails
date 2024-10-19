@@ -1,4 +1,4 @@
-/************   quality    *************/
+/***quality***/
 
 .cont-height-5{
   min-height: 100vh;
@@ -13,6 +13,7 @@
   gap: 3rem;
 }
 .qt-text h3{
+  font-size: clamp(1.875rem, 1.543rem + 1.064vw, 2.5rem);
   font-family: var(--font-primary);
   color: var(--brown);
   line-height: 1.3;
@@ -25,6 +26,7 @@
   line-height: 1.8;
 }
 .qt-card-text h4{
+  font-size: clamp(1rem, 0.867rem + 0.426vw, 1.25rem);
   font-family: var(--font-primary);
   color: var(--brown);
   line-height: 1.3;
@@ -54,12 +56,6 @@
     flex-direction: column;
     gap: 3rem;
   }
-  .qt-text h3{
-    font-size: 1.875rem /*30px*/
-  }
-  .qt-card-text h4{
-    font-size: 1rem; /*16px*/ 
-  }
 }
 
 @media (min-width: 576px) and (max-width: 991.99px) {
@@ -67,37 +63,5 @@
     flex-direction: column;
     gap: 3rem;
   }
-  .qt-text h3{
-    font-size: 2rem; /*32px*/
-  }
-  .qt-card-text h4{
-    font-size: 1rem; /*16px*/
-  }
 }
 
-@media (min-width: 992px) and (max-width: 1199.99px) {
-  .qt-text h3{
-    font-size: 2.125rem; /*34px*/
-  }
-  .qt-card-text h4{
-    font-size: 1rem; /*16px*/
-  }
-}
-
-@media (min-width: 1200px) and (max-width: 1399.99px) {
-  .qt-text h3{
-    font-size: 2.25rem /*36px*/
-  }
-  .qt-card-text h4{
-    font-size: 1.125rem; /*18px*/
-  }
-}
-
-@media (min-width: 1400px) {
-  .qt-text h3{
-    font-size: 2.5rem; /*40px*/
-  }
-  .qt-card-text h4{
-    font-size: 1.25rem; /*20px*/
-  }
-}
