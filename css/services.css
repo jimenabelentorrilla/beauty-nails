@@ -24,9 +24,7 @@
   height: auto;
   transition: .3s;
 }
-.cards-flex:hover{
-  transform: scale(1.05);
-}
+
 
 .cards-text-flex {
   text-align: center;
