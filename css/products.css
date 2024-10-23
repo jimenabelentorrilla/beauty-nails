@@ -15,15 +15,15 @@
   flex-direction: column;
   align-items: flex-start;
 }
-.prod-text h3 {
-  font-size: clamp(1.563rem, 1.064rem + 1.596vw, 2.5rem);
+.prod-text h3, .gal-title {
+  font-size: clamp(1.563rem, 1.064rem + 1.596vw, 2.2rem);
   font-family: var(--font-primary);
   color: var(--brown);
   font-weight: 400;
   line-height: 1.8; 
 }
-.prod-text p {
-  font-size: clamp(1rem, 0.84rem + 0.511vw, 1.3rem);
+.prod-text p, .gal-p {
+  font-size: clamp(1rem, 0.84rem + 0.511vw, 1.1rem);
   font-family: var(--font-secondary);
   color: var(--black);
   font-weight: 400;
