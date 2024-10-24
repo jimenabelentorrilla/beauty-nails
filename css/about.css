@@ -1,6 +1,6 @@
 /***about***/
 
-.cont-height-4{
+.cont-height-4, .bg-form-serv-det {
   background-color: var(--light-brown);
   background-image: url("../assets/img/circles.png");
   background-attachment: fixed;

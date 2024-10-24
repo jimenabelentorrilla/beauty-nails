@@ -94,15 +94,15 @@
                                 <input required type="email" name="Email" class="form-control" id="floatingInput" placeholder="name@example.com">
                                 <label for="floatingInput">Email address</label>
                             </div>
-                            <select class="form-select" name="Service" aria-label="Default select example">
+                            <select class="form-select mb-3" name="Service" aria-label="Default select example">
                                 <option selected value="Combi Manicure">Combi Manicure</option>
                                 <option value="Powegel & Gelpolish">Powegel & Gelpolish</option>
                                 <option value="Nailart">Nailart</option>
                                 <option value="Toenails">Toenails</option>
                             </select>
-                            <div class="mb-3 mt-2">
-                                <label for="exampleFormControlTextarea1" class="form-label">Comments</label>
-                                <textarea required name="Message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <div class="form-floating">
+                                <textarea required name="Message" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                <label for="floatingTextarea2">Comments</label>
                             </div>
                         </div>
                         <div class="modal-footer">
@@ -132,7 +132,7 @@
                                 </div>
                             </div>
                             <div>
-                                <span class="services-btn op">View Details</span>
+                                <a href="./pages/services-details.html" class="services-btn op">View Details</a>
                             </div>
                         </div>
                         <div class="cards-flex d-flex flex-column justify-content-between">
@@ -146,7 +146,7 @@
                                 </div>
                             </div>
                             <div>
-                                <span class="services-btn op">View Details</span>
+                                <a href="./pages/services-details.html" class="services-btn op">View Details</a>
                             </div>
                         </div>
                         <div class="cards-flex d-flex flex-column justify-content-between">
@@ -160,7 +160,7 @@
                                 </div>           
                             </div>
                             <div>
-                                <span class="services-btn op">View Details</span>
+                                <a href="./pages/services-details.html" class="services-btn op">View Details</a>
                             </div>
                         </div>
                         <div class="cards-flex d-flex flex-column justify-content-between">
@@ -174,7 +174,7 @@
                                 </div>            
                             </div>
                             <div>
-                                <span class="services-btn op">View Details</span>
+                                <a href="./pages/services-details.html" class="services-btn op">View Details</a>
                             </div>
                         </div>
                     </div>
@@ -434,10 +434,10 @@
         </div>
     </footer>
     
-    <!--Button to bottom---->
+    <!--Button to bottom-
     <a href="#contact" class="btn-arrow d-flex justify-content-end">
         <img src="/assets/img/btn-arrow.png" alt="Button to bottom">
-    </a>
+    </a>--->
 
     <!-----Offcanvas-->
     <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">

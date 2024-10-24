@@ -1,0 +1,22 @@
+/****services details**/
+
+.bg-ser-det{
+    background-image: url("../../assets/img/banner-img3.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 75vh;
+}
+.serv-img img{
+    width: 100%;
+}
+.ser-row{
+    min-height: 100vh;
+}
+.blog-lg-w{
+    width: 80%;
+}
+.ser-subtitle{
+    font-family: ;
+}
