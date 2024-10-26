@@ -1,22 +1,46 @@
 /****services details**/
 
 .bg-ser-det{
-    background-image: url("../../assets/img/banner-img3.png");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 75vh;
+  background-image: url("../../assets/img/banner-img3.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 75vh;
+}
+.gal-p {
+  list-style-type: none;
+}
+.img-banner img{
+  width: 100%;
+  min-height: 20px;
 }
 .serv-img img{
-    width: 100%;
+  width: 100%;
 }
 .ser-row{
-    min-height: 100vh;
+  min-height: 100vh;
+  padding:3em;
 }
-.blog-lg-w{
-    width: 80%;
+.w-for{
+  width: 80%;
 }
-.ser-subtitle{
-    font-family: ;
+
+/* Responsive */
+@media (max-width: 575.99px) {
+  .bg-ser-det{
+    min-height: 50vh;
+  }
+  .ser-row{
+    gap: 3em;
+  }
+}
+  
+@media (min-width: 576px) and (max-width: 991.99px) {
+  .bg-ser-det{
+    min-height: 50vh;
+  }
+  .ser-row{
+    gap: 3em;
+  }
 }
