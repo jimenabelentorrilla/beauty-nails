@@ -53,16 +53,12 @@
   display: inline-block;
   padding-bottom: 5px;
   text-decoration: none;
+  transition: color 0.3s ease, border-bottom 0.3s ease; /* Transición suave */
+  border-bottom: 2px solid transparent; /* Línea invisible por defecto */
 }
-
-.services-btn::after {
-  content: '';
-  width: 85%;
-  height: 3.6px;
-  background-color: var(--brown);
-  position: absolute;
-  left: 0;
-  bottom: 0;
+.services-btn:hover {
+  color: var(--light-brown); /* Color del texto al hacer hover, cambia según tu paleta */
+  border-bottom: 2px solid var(--light-brown); /* Línea visible al pasar el mouse */
 }
 
 /* Responsive */

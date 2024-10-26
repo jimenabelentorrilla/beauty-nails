@@ -34,3 +34,22 @@
   justify-content: center;
   align-items: center;
 }
+
+/* Responsive */
+@media (max-width: 575.99px) {
+  .bg-abt{
+    min-height: 50vh;
+  }
+  .gal-row{
+    gap: 3em;
+  }
+}
+  
+@media (min-width: 576px) and (max-width: 991.99px) {
+  .bg-abt{
+    min-height: 50vh;
+  }
+  .gal-row{
+    gap: 3em;
+  }
+}

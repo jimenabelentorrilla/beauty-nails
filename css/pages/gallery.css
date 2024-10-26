@@ -34,3 +34,22 @@
     scale: 1;
   }
 }
+
+/* Responsive */
+@media (max-width: 575.99px) {
+  .bg-gallery{
+    min-height: 50vh;
+  }
+  .gallery{
+    columns: 2;
+  }
+}
+  
+@media (min-width: 576px) and (max-width: 991.99px) {
+  .bg-gallery{
+    min-height: 50vh;
+  }
+  .gallery{
+    columns: 2;
+  }
+}  
