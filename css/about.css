@@ -2,7 +2,7 @@
 
 .cont-height-4, .bg-form-serv-det {
   background-color: var(--light-brown);
-  background-image: url("../assets/img/circles.png");
+  background-image: url("../assets/img/circles.webp");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position-y: bottom;
