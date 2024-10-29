@@ -7,10 +7,10 @@
   background-repeat: no-repeat;
   background-position-y: bottom;
   background-size: contain;
-  min-height: 80vh;
+  min-height: 85vh;
 }
 .text-p{
-  width: 80%;
+  width: 65%;
   text-align: center;
 }
 .text-p p{

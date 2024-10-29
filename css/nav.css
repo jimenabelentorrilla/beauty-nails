@@ -18,8 +18,8 @@
   margin-bottom: 0;
   gap: 2rem;
 }
-.op:hover{
-  color: var(--black);
+.op a:hover{
+  color: var(--light-brown);
   transition: ease .3s;
   cursor: pointer;
 }

@@ -7,7 +7,6 @@
   background-position-y: center;
   min-height: 100vh;
 }
-  
 .test-text{
   font-size: clamp(1rem, 0.968rem + 1.702vw, 2.5rem);
   font-family: var(--font-primary);
@@ -15,7 +14,7 @@
   text-align: center;
 }
 .test-client{
-  font-size: clamp(1rem, 0.535rem + 1.489vw, 1.875rem);
+  font-size: clamp(1rem, 0.535rem + 1.489vw, 1.175rem);
   font-family: var(--font-secondary);
   color:var(--black);
   margin: 0;

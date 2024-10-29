@@ -11,6 +11,9 @@
 .gal-p {
   list-style-type: none;
 }
+.col-wi{
+  color: white;
+}
 .img-banner img{
   width: 100%;
   min-height: 20px;
@@ -23,9 +26,20 @@
   padding: 3em;
 }
 .w-for{
-  width: 80%;
+  width: 55%;
 }
-
+.bt-sub{
+  background-color: var(--brown);
+  border: none;
+  border: solid 1px var(--brown);
+  color: white;
+  font-weight: 500;
+}
+.bt-sub:hover{
+  border: solid 1px var(--brown);
+  color:var(--brown);
+  transition: ease .3s;
+}
 /* Responsive */
 @media (max-width: 575.99px) {
   .bg-ser-det{
