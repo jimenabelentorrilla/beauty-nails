@@ -1,11 +1,15 @@
 /***nav***/
 
 .he-nav{
-  height: 15vh !important;
+  height: 12vh !important;
 }
 .sticky-nav{
   background-color: var(--light-grey);
-  width: 85%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  padding: 0em 4em;
 }
 .navbar-br a{
   font-family: var(--font-primary);
