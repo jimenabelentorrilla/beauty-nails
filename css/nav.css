@@ -9,7 +9,7 @@
   top: 0;
   z-index: 1;
   width: 100%;
-  padding: 0em 4em;
+  padding: 0em 7em;
 }
 .navbar-br a{
   font-family: var(--font-primary);
@@ -43,6 +43,19 @@
 }
 .offcanvas, .offcanvas-top{
   min-height: 60vh;
+}
+.flags{
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flags_item{
+  width: 30px;
+}
+.flags_item_img{
+  display: block;
+  cursor: pointer;
 }
 
 @media (width < 575.99px){

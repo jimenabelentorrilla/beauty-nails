@@ -1,0 +1,84 @@
+{
+    "nav": {
+        "services": "services",
+        "testimonials": "testimonials",
+        "about": "about",
+        "contact": "contact"
+    },
+    "home": {
+        "title": "Elevate your <br>nails & shine",
+        "subtitle": "For beautiful nails, you've come to the right place",
+        "btn": "Contact us"
+    },
+    "services": {
+        "title": "Featured Treatments",
+        "first-service-title": "Combi Manicure",
+        "first-service-paragraph":"The electric file removes dead skin from the cuticle for a super sleek end result",
+        "second-service-title": "Powegel & Gelpolish",
+        "second-service-paragraph":"Natural nail is strengthened with a building gel + gel polish color of your choice",
+        "third-service-title": "Nailart",
+        "third-service-paragraph":"Want to stand out even more with beautiful nail art on your nails?",
+        "fourth-service-title": "Toenails",
+        "fourth-service-paragraph":"Your toenails painted in a Gel polish of your choice (including foot bubble bath)",
+        "details": "View Details"
+    },
+    "products": {
+        "title": "The best quality a-branded products",
+        "subtitle":"Experience Unmatched Nail Care with Our Selection of Top-Quality A-Branded Products. <br> At BeautyNails, we exclusively use <b>premium brands</b> to ensure your nails receive the best treatment and care available.",
+        "btn":"See more"
+    },
+    "about-me": {
+        "title":"I’m Sarah,",
+        "subtitle":"Your nailstylist",
+        "paragraph":"With over three years of experience in the industry, I am certified by <b>Magnetic</b> and have accumulated more than 15 professional education certificates along with over 20 course participation certificates.",
+        "btn":"More about"
+    },
+    "about": {
+        "paragraph": "“My genuine interest in people ensures that every visit to <span>BeautyNails</span> is not just a service, but an experience of <span>relaxation</span> and <span>beauty”</span>"
+    },
+    "quality": {
+        "title": "Discover the magic", 
+        "subtitle": "At BeautyNails, we prioritize your convenience and comfort.<br>Enjoy a complimentary coffee or tea while you wait in our cozy waiting area.<br> With an efficient online booking system, scheduling your next appointment is just a click away.",
+        "first-title": "Premium Salon Specialties",
+        "first-paragraph":"We provide unique DUO treatments and special packages for weddings and mother-daughter moments, ensuring a luxurious experience for every occasion.",
+        "second-title": "High-Quality Facilities",
+        "second-paragraph":"We ensure a safe and hygienic environment. Our salon includes essential amenities like a toilet and ample space, allowing you to bring a friend to share the experience.",
+        "third-title": "Outstanding Ratings & Reviews",
+        "third-paragraph":"With over 250 unique 5-star reviews and a 5-day guarantee on treatments, BeautyNails is dedicated to providing exceptional service and quality.",
+        "fourth-title": "Commitment to Excellence",
+        "fourth-paragraph":"Using only top-quality A-branded products, we offer complimentary nail oil and cuticle cream for at-home care."
+    },
+    "testimonials": {
+        "first-testimonial":"“Just had the most relaxing manicure. My nails feel rejuvenated and look gorgeous!”",
+        "first-client": "<b>Laura</b>- 3 days ago",
+        "second-testimonial":"“Lovely session getting my nails done. And the nail art is stunning!”",
+        "second-client": "<b>Emily</b>- 5 days ago",
+        "third-testimonial":"“Had a great time at the nail salon today. The new gel polish looks fabulous!”",
+        "third-client": "<b>Jessica</b> - 3 days ago"
+    },
+    "appoint": {
+        "title": "Shine like never before",
+        "subtitle": "We like to take the time to make your hands shine",
+        "btn": "Contact us"
+    },
+    "footer": {
+        "services": "services",
+        "products": "products",
+        "about": "about",
+        "testimonials":"testimonials",
+        "contact":"contact",
+        "all":"2024 All Rights reserved"
+    },
+    "form": {
+        "title": "Get in touch",
+        "name": "Name",
+        "email": "Email address",
+        "first-service": "Combi Manicure",
+        "second-service": "Powegel & Gelpolish",
+        "third-service": "Nailart",
+        "fourth-service": "Toenails",
+        "comments": "Comments",
+        "btnClose": "Close",
+        "btnSubmit": "Submit"
+    }
+}

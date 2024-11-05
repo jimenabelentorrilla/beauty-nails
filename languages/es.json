@@ -1,0 +1,84 @@
+{
+    "nav": {
+        "services": "servicios",
+        "testimonials": "testimonios",
+        "about": "acerca",
+        "contact": "contacto"
+    },
+    "home": {
+        "title": "Eleva tus <br> uñas y brillá",
+        "subtitle": "Para unas uñas hermosas, estás en el lugar indicado",
+        "btn": "Contactanos"
+    },
+    "services": {
+        "title": "Tratamientos Destacados",
+        "first-service-title": "Manicura combinada",
+        "first-service-paragraph": "La lima eléctrica elimina la piel muerta de la cutícula para un resultado final súper prolijo",
+        "second-service-title": "Esmalte Semipermanente",
+        "second-service-paragraph": "La uña natural se refuerza con un gel de construcción + el color de esmalte en gel de tu elección",
+        "third-service-title": "Nailart",
+        "third-service-paragraph": "¿Querés destacarte <br>aún más con un hermoso <br> arte en tus uñas?",
+        "fourth-service-title": "Pedicura",
+        "fourth-service-paragraph": "Tus uñas pintadas con el esmalte en gel de tu elección (incluyendo baño de burbujas para los pies)",
+        "details": "Ver Detalles"
+    },
+    "products": {
+        "title": "Los mejores productos de marcas reconocidas",
+        "subtitle": "Experimentá un cuidado de uñas inigualable con nuestra selección de productos de marcas reconocidas. <br> En BeautyNails, utilizamos exclusivamente <b>marcas premium</b> para garantizar que tus uñas reciban el mejor tratamiento y cuidado disponible.",
+        "btn": "Ver más"
+    },
+    "about-me": {
+        "title": "Soy Sarah,",
+        "subtitle": "Tu estilista de uñas",
+        "paragraph": "Con más de tres años de experiencia en la industria, estoy certificada por <b>Magnetic</b> y he acumulado más de 15 certificados de educación profesional, además de más de 20 certificados de participación en cursos.",
+        "btn": "Más sobre mi"
+    },
+    "about": {
+        "paragraph": "“Mi genuino interés por las personas asegura que cada visita a <span>BeautyNails</span> no sea solo un servicio, sino una experiencia de <span>relajación</span> y <span>belleza”</span>"
+    },
+    "quality": {
+        "title": "Descubrí la magia.",
+        "subtitle": "En BeautyNails, priorizamos tu comodidad y conveniencia. <br>Disfrutá de un café o té de cortesía mientras esperás en nuestra área de espera.<br> Con un sistema de reservas en línea eficiente, agendar tu próxima cita está a solo un clic.",
+        "first-title": "Especialidades de Salón Premium",
+        "first-paragraph": "Ofrecemos tratamientos DUO únicos y paquetes especiales para bodas y momentos entre madres e hijas, garantizando una experiencia lujosa para cada ocasión.",
+        "second-title": "Instalaciones de Alta Calidad",
+        "second-paragraph": "Aseguramos un ambiente seguro e higiénico. Nuestro salón incluye comodidades esenciales como un baño y amplio espacio, permitiéndote traer a un amigo para compartir la experiencia.",
+        "third-title": "Calificaciones y Reseñas Sobresalientes",
+        "third-paragraph": "Con más de 250 reseñas únicas de 5 estrellas y una garantía de 5 días en tratamientos, BeautyNails se dedica a brindar un servicio y calidad excepcionales.",
+        "fourth-title": "Compromiso con la Excelencia",
+        "fourth-paragraph": "Utilizando solo productos de marcas reconocidas de alta calidad, ofrecemos aceite para uñas y crema para cutículas de cortesía para el cuidado en casa."
+    },
+    "testimonials": {
+        "first-testimonial": "“Acabo de tener la manicura más relajante. ¡Mis uñas se sienten rejuvenecidas y lucen hermosas!”",
+        "first-client": "<b>Laura</b> - hace 3 días",
+        "second-testimonial": "“¡Hermosa sesión para hacerme las uñas! Y el arte en uñas es impresionante.”",
+        "second-client": "<b>Emily</b> - hace 5 días",
+        "third-testimonial": "“¡Pasé un gran momento en el salón de uñas hoy! ¡El nuevo esmalte en gel se ve fabuloso!”",
+        "third-client": "<b>Jessica</b> - hace 3 días"
+    },
+    "appoint": {
+        "title": "Brillá como nunca antes",
+        "subtitle": "Nos gusta tomarnos el tiempo para hacer que tus manos brillen",
+        "btn": "Contactanos"
+    },
+    "footer": {
+        "services": "servicios",
+        "products": "productos",
+        "about": "acerca",
+        "testimonials": "testimonios",
+        "contact": "contacto",
+        "all": "2024 Todos los derechos reservados"
+    },
+    "form": {
+        "title": "Comunicate con nosotros",
+        "name": "Nombre",
+        "email": "Correo electrónico",
+        "first-service": "Manicura combinada",
+        "second-service": "Esmalte Semipermanente",
+        "third-service": "Nailart",
+        "fourth-service": "Pedicura",
+        "comments": "Comentarios",
+        "btnClose": "Cerrar",
+        "btnSubmit": "Enviar"
+    }
+}
