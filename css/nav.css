@@ -7,7 +7,7 @@
   background-color: var(--light-grey);
   position: fixed;
   top: 0;
-  z-index: 9999999;
+  z-index: 999;
   width: 100%;
   padding: 0em 7em;
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
@@ -44,6 +44,7 @@
 }
 .offcanvas, .offcanvas-top{
   min-height: 60vh;
+  z-index: 9999;
 }
 .flags{
   width: 100px;
@@ -62,6 +63,9 @@
 @media (width < 575.99px){
   .nav-block{
     display: none;
+  }
+  .sticky-nav{
+    padding: 0em 2em;
   }
 }
 

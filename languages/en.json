@@ -80,5 +80,33 @@
         "comments": "Comments",
         "btnClose": "Close",
         "btnSubmit": "Submit"
+    },
+    "header": {
+        "title-gallery": "Gallery",
+        "title-about": "About me"
+    },
+    "about-me-det": {
+        "header-title": "About",
+        "btn-view": "View gallery",
+        "first-title": "More About Us",
+        "first-paragraph": "At Beauty Nails, every detail matters. We specialize in enhancing the beauty of your hands with modern nail techniques and high-quality products. Here, we believe hand care is a form of self-expression, and our team is dedicated to providing you with a unique and personalized experience in a comfortable setting. Come and enjoy an experience that cares for both you and your nails",
+        "second-title":"How Beauty Started",
+        "second-paragraph":"Beauty Nails began with a clear vision: to create a space where everyone can express themselves through the art of nails. From our first designs, we committed to offering a service that combines creativity and professionalism. We value every detail and believe in a service that goes beyond aesthetics, transforming each set of nails into a true work of art",
+        "third-title": "Most popular, clean, and recommended nail salon",
+        "third-paragraph": "Beauty Nails is known for excellence in nail care. Our salon offers a clean, welcoming atmosphere where clients can unwind and enjoy top-quality services. We prioritize hygiene, comfort, and the latest trends in nail artistry to provide an experience that goes beyond expectations. Step into a space where beauty and care come together to create the perfect look."
+    },
+    "service-det": {
+        "header-title":"Details",
+        "first-title": "About this service",
+        "first-paragraph": "Velit, praesent pharetra malesuada id pulvinar amet. Consequat potenti mollis massa iaculis et, dolor, eget lectus. Aliquam pellentesque molestie felis fames sed eget non euismod eget. Et eget ullamcorper urna, elit ac diam tellus viverra lacus. Id pulvinar amet. Consequat potenti mollis massa iaculis et, dolor, eget lectus. Aliquam pellentesque molestie felis fames sed eget non euismod eget. Et eget ullamcorper urna, elit ac diam tellus viverra lacus.",
+        "second-title":"What are the benefits",
+        "second-paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur facilisis vivamus massa magna. Blandit mauris libero condimentum commodo morbi consectetur sociis convallis sit.",
+        "li-1": "Blandit mauris libero condimentum commodo sociis convallis sit.",
+        "li-2": "Blandit mauris libero condimentum commodo sociis convallis sit.",
+        "li-3": "Blandit mauris libero condimentum commodo sociis convallis sit.",
+        "li-4": "Blandit mauris libero condimentum commodo sociis convallis sit.",
+        "li-5": "Blandit mauris libero condimentum commodo sociis convallis sit.",
+        "li-6": "Blandit mauris libero condimentum commodo sociis convallis sit.",
+        "ques":"Have any question?"
     }
 }
