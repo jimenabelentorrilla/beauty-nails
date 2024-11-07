@@ -19,8 +19,7 @@
         "third-service-title": "Nailart",
         "third-service-paragraph": "¿Querés destacarte <br>aún más con un hermoso <br> arte en tus uñas?",
         "fourth-service-title": "Pedicura",
-        "fourth-service-paragraph": "Tus uñas pintadas con el esmalte en gel de tu elección (incluyendo baño de burbujas para los pies)",
-        "details": "Ver Detalles"
+        "fourth-service-paragraph": "Tus uñas pintadas con el esmalte en gel de tu elección (incluyendo baño de burbujas para los pies)"
     },
     "products": {
         "title": "Los mejores productos de marcas reconocidas",
@@ -94,19 +93,5 @@
         "second-paragraph":"Beauty Nails comenzó con una visión clara: crear un espacio donde cada persona pueda expresarse a través del arte de las uñas. Desde nuestros primeros diseños, nos comprometimos a ofrecer un servicio que combine creatividad y profesionalismo. Valoramos cada detalle y creemos en un servicio que vaya más allá de lo estético, transformando cada set en una verdadera obra de arte",
         "third-title": "El Salón Más Popular, Limpio y Recomendado",
         "third-paragraph": "Beauty Nails es reconocido por su excelencia en el cuidado de uñas. Nuestro salón ofrece un ambiente limpio y acogedor donde puedes relajarte y disfrutar de servicios de la más alta calidad. Priorizamos la higiene, el confort y las últimas tendencias en el arte de uñas para brindarte una experiencia que supera expectativas. Entra a un espacio donde la belleza y el cuidado se unen para crear el look perfecto."
-    },
-    "service-det": {
-        "header-title":"Detalles del servicio",
-        "first-title": "Sobre este servicio",
-        "first-paragraph": "Velit, praesent pharetra malesuada id pulvinar amet. Consequat potenti mollis massa iaculis et, dolor, eget lectus. Aliquam pellentesque molestie felis fames sed eget non euismod eget. Et eget ullamcorper urna, elit ac diam tellus viverra lacus. Id pulvinar amet. Consequat potenti mollis massa iaculis et, dolor, eget lectus. Aliquam pellentesque molestie felis fames sed eget non euismod eget. Et eget ullamcorper urna, elit ac diam tellus viverra lacus.",
-        "second-title":"¿Cuáles son los beneficios?s",
-        "second-paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur facilisis vivamus massa magna. Blandit mauris libero condimentum commodo morbi consectetur sociis convallis sit.",
-        "li-1": "Blandit mauris libero condimentum commodo sociis convallis sit.",
-        "li-2": "Blandit mauris libero condimentum commodo sociis convallis sit.",
-        "li-3": "Blandit mauris libero condimentum commodo sociis convallis sit.",
-        "li-4": "Blandit mauris libero condimentum commodo sociis convallis sit.",
-        "li-5": "Blandit mauris libero condimentum commodo sociis convallis sit.",
-        "li-6": "Blandit mauris libero condimentum commodo sociis convallis sit.",
-        "ques":"¿Tenés alguna consulta?"
     }
 }

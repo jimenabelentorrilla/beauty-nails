@@ -15,7 +15,8 @@
 .srv-flex {
   display: flex;
   justify-content: space-between;
-  gap: 1rem;
+  align-items: baseline;
+  gap: 2rem;
 }
 
 .cards-flex {
@@ -25,11 +26,12 @@
   transition: .3s;
 }
 
-
 .cards-text-flex {
   text-align: center;
 }
-
+.cards-text{
+  gap: 1.5rem !important;
+}
 .cards-text h3 {
   font-size: clamp(1.125rem, 0.926rem + 0.638vw, 1.5rem);
   font-family: var(--font-primary);
@@ -44,22 +46,7 @@
   color: var(--black);
 }
 
-.services-btn {
-  font-size: 1.125rem;
-  font-family: var(--font-secondary);
-  font-weight: 600;
-  color: var(--brown);
-  position: relative;
-  display: inline-block;
-  padding-bottom: 5px;
-  text-decoration: none;
-  transition: color 0.3s ease, border-bottom 0.3s ease; /* Transición suave */
-  border-bottom: 2px solid transparent; /* Línea invisible por defecto */
-}
-.services-btn:hover {
-  color: var(--light-brown); /* Color del texto al hacer hover, cambia según tu paleta */
-  border-bottom: 2px solid var(--light-brown); /* Línea visible al pasar el mouse */
-}
+
 
 /* Responsive */
 
