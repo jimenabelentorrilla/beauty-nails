@@ -1,0 +1,101 @@
+[
+    {
+        "id": "nailpolish-01",
+        "titulo": "Esmalte Nail Enamel x9ml",
+        "imagen": "../assets/img/products/esmalte rojo.webp",
+        "categoria": {
+            "nombre": "Nail Polish",
+            "id": "nail-polish"
+        },
+        "precio": 2490,
+        "descripcion": "Esmalte de alta duración, ideal para obtener un acabado brillante y profesional."
+    },
+    {
+        "id": "nailpolish-02",
+        "titulo": "Esmalte Nail Enamel x9ml",
+        "imagen": "../assets/img/products/esmalte rosa.webp",
+        "categoria": {
+            "nombre": "Nail Polish",
+            "id": "nail-polish"
+        },
+        "precio": 2490,
+        "descripcion": "Esmalte de alta duración, ideal para obtener un acabado brillante y profesional."
+    },
+    {
+        "id": "nailpolish-03",
+        "titulo": "Esmalte Nail Enamel x9ml",
+        "imagen": "../assets/img/products/esmalte-negro.webp",
+        "categoria": {
+            "nombre": "Nail Polish",
+            "id": "nail-polish"
+        },
+        "precio": 2490,
+        "descripcion": "Esmalte de alta duración, ideal para obtener un acabado brillante y profesional."
+    },
+    {
+        "id": "gelpolish-01",
+        "titulo": "Gel de Uñas x10ml Thuya",
+        "imagen": "../assets/img/products/gel-1.webp",
+        "categoria": {
+            "nombre": "Gel Polish",
+            "id": "gel-polish"
+        },
+        "precio": 24500,
+        "descripcion": "Gel de alta calidad, formulado para brindar un acabado resistente y uniforme."
+    },
+    {
+        "id": "gelpolish-02",
+        "titulo": "Primer x15ml Meliné",
+        "imagen": "../assets/img/products/gel-2.webp",
+        "categoria": {
+            "nombre": "Gel Polish",
+            "id": "gel-polish"
+        },
+        "precio": 4290,
+        "descripcion": "Primer esencial para una mejor adhesión y duración del gel en las uñas."
+    },
+    {
+        "id": "gelpolish-03",
+        "titulo": "Builder Gel x15ml Meliné",
+        "imagen": "../assets/img/products/gel-3.webp",
+        "categoria": {
+            "nombre": "Gel Polish",
+            "id": "gel-polish"
+        },
+        "precio": 8490,
+        "descripcion": "Gel constructor ideal para crear extensiones fuertes y de aspecto natural."
+    },
+    {
+        "id": "serum-01",
+        "titulo": "Crema Hidratante Flores de Cerezo 80g",
+        "imagen": "../assets/img/products/crema-1.webp",
+        "categoria": {
+            "nombre": "Serum",
+            "id": "serum"
+        },
+        "precio": 5519,
+        "descripcion": "Crema hidratante con un aroma suave, perfecta para el cuidado diario de la piel."
+    },
+    {
+        "id": "serum-02",
+        "titulo": "Crema Hidratante Trigo y Karite 80g",
+        "imagen": "../assets/img/products/crema-2.webp",
+        "categoria": {
+            "nombre": "Serum",
+            "id": "serum"
+        },
+        "precio": 5519,
+        "descripcion": "Crema hidratante con un aroma suave, perfecta para el cuidado diario de la piel."
+    },
+    {
+        "id": "serum-03",
+        "titulo": "Crema para manos con siliconas x100ml",
+        "imagen": "../assets/img/products/crema-3.webp",
+        "categoria": {
+            "nombre": "Serum",
+            "id": "serum"
+        },
+        "precio": 11565,
+        "descripcion": "Fórmula enriquecida para proteger y suavizar tus manos durante el día."
+    }
+]

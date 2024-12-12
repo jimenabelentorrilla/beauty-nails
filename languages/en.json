@@ -17,7 +17,7 @@
         "second-service-title": "Powegel & Gelpolish",
         "second-service-paragraph":"Natural nail is strengthened with a building gel + gel polish color of your choice",
         "third-service-title": "Nailart",
-        "third-service-paragraph":"Want to stand out even more with beautiful nail art on your nails?",
+        "third-service-paragraph":"Want to stand out even more with beautiful nail art on your nails? Choose your favourite design",
         "fourth-service-title": "Toenails",
         "fourth-service-paragraph":"Your toenails painted in a Gel polish of your choice (including foot bubble bath)"
     },
@@ -81,17 +81,40 @@
         "btnSubmit": "Submit"
     },
     "header": {
-        "title-gallery": "Gallery",
+        "title-gallery": "Products",
         "title-about": "About me"
     },
     "about-me-det": {
         "header-title": "About",
-        "btn-view": "View gallery",
         "first-title": "More About Us",
-        "first-paragraph": "At Beauty Nails, every detail matters. We specialize in enhancing the beauty of your hands with modern nail techniques and high-quality products. Here, we believe hand care is a form of self-expression, and our team is dedicated to providing you with a unique and personalized experience in a comfortable setting. Come and enjoy an experience that cares for both you and your nails",
+        "first-paragraph": "At Beauty Nails, every detail matters. We specialize in enhancing the beauty of your hands with modern nail techniques and high-quality products. Here, we believe hand care is a form of self-expression, and our team is dedicated to providing you with a unique and personalized experience in a comfortable setting.",
         "second-title":"How Beauty Started",
-        "second-paragraph":"Beauty Nails began with a clear vision: to create a space where everyone can express themselves through the art of nails. From our first designs, we committed to offering a service that combines creativity and professionalism. We value every detail and believe in a service that goes beyond aesthetics, transforming each set of nails into a true work of art",
+        "second-paragraph":"Beauty Nails began with a clear vision: to create a space where everyone can express themselves through the art of nails. From our first designs, we committed to offering a service that combines creativity and professionalism.",
         "third-title": "Most popular, clean, and recommended nail salon",
-        "third-paragraph": "Beauty Nails is known for excellence in nail care. Our salon offers a clean, welcoming atmosphere where clients can unwind and enjoy top-quality services. We prioritize hygiene, comfort, and the latest trends in nail artistry to provide an experience that goes beyond expectations. Step into a space where beauty and care come together to create the perfect look."
+        "third-paragraph": "We prioritize hygiene, comfort, and the latest trends in nail artistry to provide an experience that goes beyond expectations. Step into a space where beauty and care come together to create the perfect look."
+    },
+    "extra-info-manicure": {
+        "first-paragraph": "✨ Cuticle cleaning and care.",
+        "second-paragraph": "🎨 Flawless and natural finish.",
+        "third-paragraph": "⏱️ Duration: 45 minutes.",
+        "fourth-paragraph": "🌟 Ideal for those seeking elegance and professional care."
+    },
+    "extra-info-powegel": {
+        "first-paragraph": "🛡️ Strong nails with advanced techniques.",
+        "second-paragraph": "🎨 Over 50 vibrant colors to choose from.",
+        "third-paragraph": "⏳ Duration: Up to 4 weeks.",
+        "fourth-paragraph": "🌟 Perfect for a long-lasting and sophisticated style."
+    },
+    "extra-info-nailart": {
+        "first-paragraph": "🖌️ Custom designs, as unique as you.",
+        "second-paragraph": "🌈 Options: minimalist, geometric, extravagant.",
+        "third-paragraph": "🖤 We use cutting-edge techniques.",
+        "fourth-paragraph": "🌟 Express your personality with nail art!"
+    },
+    "extra-info-toenails": {
+        "first-paragraph": "🌿 Deep and relaxing care.",
+        "second-paragraph": "💎 Professional finish with the color of your choice.",
+        "third-paragraph": "🕒 Duration: 40 minutes.",
+        "fourth-paragraph": "🌟 Soft feet ready for any occasion!"
     }
 }

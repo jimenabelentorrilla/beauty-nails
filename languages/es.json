@@ -17,7 +17,7 @@
         "second-service-title": "Esmalte Semipermanente",
         "second-service-paragraph": "La uña natural se refuerza con un gel de construcción + el color de esmalte en gel de tu elección",
         "third-service-title": "Nailart",
-        "third-service-paragraph": "¿Querés destacarte <br>aún más con un hermoso <br> arte en tus uñas?",
+        "third-service-paragraph": "¿Querés destacarte <br>aún más con un hermoso <br> arte en tus uñas? Elegí tu diseño favorito",
         "fourth-service-title": "Pedicura",
         "fourth-service-paragraph": "Tus uñas pintadas con el esmalte en gel de tu elección (incluyendo baño de burbujas para los pies)"
     },
@@ -81,17 +81,40 @@
         "btnSubmit": "Enviar"
     },
     "header": {
-        "title-gallery": "Galeria",
+        "title-gallery": "Productos",
         "title-about": "Sobre mi"
     },
     "about-me-det": {
         "header-title": "Acerca de",
-        "btn-view": "Ver galeria",
         "first-title": "Sobre Nosotros",
-        "first-paragraph": "En Beauty Nails, cada detalle cuenta. Nos especializamos en realzar la belleza de tus manos con técnicas de uñas modernas y productos de calidad. Creemos que el cuidado de las manos es una forma de expresión, y nuestro equipo está dedicado a brindarte una experiencia única y personalizada en un ambiente de confort. Veni a vivir una experiencia que cuida tanto de ti como de tus uñas",
+        "first-paragraph": "En Beauty Nails, cada detalle cuenta. Nos especializamos en realzar la belleza de tus manos con técnicas de uñas modernas y productos de calidad. Creemos que el cuidado de las manos es una forma de expresión, y nuestro equipo está dedicado a brindarte una experiencia única y personalizada en un ambiente de confort.",
         "second-title":"Cómo Comenzó Beauty",
-        "second-paragraph":"Beauty Nails comenzó con una visión clara: crear un espacio donde cada persona pueda expresarse a través del arte de las uñas. Desde nuestros primeros diseños, nos comprometimos a ofrecer un servicio que combine creatividad y profesionalismo. Valoramos cada detalle y creemos en un servicio que vaya más allá de lo estético, transformando cada set en una verdadera obra de arte",
+        "second-paragraph":"Comenzó con una visión clara: crear un espacio donde cada persona pueda expresarse a través del arte de las uñas. Desde nuestros primeros diseños, nos comprometimos a ofrecer un servicio que combine creatividad y profesionalismo.",
         "third-title": "El Salón Más Popular, Limpio y Recomendado",
-        "third-paragraph": "Beauty Nails es reconocido por su excelencia en el cuidado de uñas. Nuestro salón ofrece un ambiente limpio y acogedor donde puedes relajarte y disfrutar de servicios de la más alta calidad. Priorizamos la higiene, el confort y las últimas tendencias en el arte de uñas para brindarte una experiencia que supera expectativas. Entra a un espacio donde la belleza y el cuidado se unen para crear el look perfecto."
+        "third-paragraph": "Priorizamos la higiene, el confort y las últimas tendencias en el arte de uñas para brindarte una experiencia que supera expectativas. Entra a un espacio donde la belleza y el cuidado se unen para crear el look perfecto."
+    },
+    "extra-info-manicure": {
+        "first-paragraph": "✨ Limpieza y cuidado de cutículas.",
+        "second-paragraph":"🎨 Acabado impecable y natural.",
+        "third-paragraph":"⏱️ Duración: 45 minutos.",
+        "fourth-paragraph": "🌟 Ideal para quienes buscan elegancia y cuidado profesional."
+    },
+    "extra-info-powegel": {
+        "first-paragraph": "🛡️ Uñas fuertes con técnicas avanzadas.",
+        "second-paragraph":"🎨 Más de 50 colores vibrantes a elegir.",
+        "third-paragraph":"⏳ Duración: Hasta 4 semanas.",
+        "fourth-paragraph": "🌟 Perfecto para un estilo duradero y sofisticado."
+    },
+    "extra-info-nailart": {
+        "first-paragraph": "🖌️ Diseños personalizados, únicos como vos.",
+        "second-paragraph":"🌈 Opciones: minimalistas, geométricos, extravagantes.",
+        "third-paragraph":"🖤 Usamos técnicas de última generación.",
+        "fourth-paragraph": "🌟 ¡Expresá tu personalidad con arte en tus uñas!"
+    },
+    "extra-info-toenails": {
+        "first-paragraph": "🌿 Cuidado profundo y relajante.",
+        "second-paragraph":"💎 Acabado profesional con el color que elijas.",
+        "third-paragraph":"🕒 Duración: 40 minutos.",
+        "fourth-paragraph": "🌟 ¡Pies suaves y listos para cualquier ocasión!"
     }
 }

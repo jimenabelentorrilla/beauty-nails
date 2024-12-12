@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Beauty Nails | Tech-24233</title>
-        <link rel="icon" href="./assets/img/flaticon.png">
+        <link rel="icon" href="../assets/img/flaticon.png">
         <!--Bootstrap-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <!--Google Fonts-->
@@ -18,7 +18,7 @@
         <link rel="stylesheet" href="../css/nav.css">
         <link rel="stylesheet" href="../css/appointment.css">
         <link rel="stylesheet" href="../css/footer.css">
-        <link rel="stylesheet" href="../css/pages/gallery.css">
+        <link rel="stylesheet" href="../css/pages/productos.css">
     </head>
 </head>
 <body>
@@ -69,27 +69,31 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <div class="gallery">
-                    <img src="../assets/img/gal-post-3.webp" alt="Imagen 1">
-                    <img src="../assets/img/gal-post-4.webp" alt="Imagen 2">
-                    <img src="../assets/img/gal-post-3.webp" alt="Imagen 1">
-                    <img src="../assets/img/gal-post-4.webp" alt="Imagen 2">
-                    <img src="../assets/img/gal-post-3.webp" alt="Imagen 1">
-                    <img src="../assets/img/gal-post-4.webp" alt="Imagen 2">
-
-                    <img src="../assets/img/gal-post-6.webp" alt="Imagen 3">
-                    <img src="../assets/img/gal-post-1.webp" alt="Imagen 4">
-                    <img src="../assets/img/gal-post-6.webp" alt="Imagen 3">
-                    <img src="../assets/img/gal-post-1.webp" alt="Imagen 4">
-                    <img src="../assets/img/gal-post-6.webp" alt="Imagen 3">
-                    <img src="../assets/img/gal-post-1.webp" alt="Imagen 4">
-
-                    <img src="../assets/img/gal-post-2.webp" alt="Imagen 5">   
-                    <img src="../assets/img/gal-post-5.webp" alt="Imagen 6">
-                    <img src="../assets/img/gal-post-2.webp" alt="Imagen 5">   
-                    <img src="../assets/img/gal-post-5.webp" alt="Imagen 6">
-                    <img src="../assets/img/gal-post-2.webp" alt="Imagen 5">   
-                    <img src="../assets/img/gal-post-5.webp" alt="Imagen 6">
+                <div class="wrapper-carrito">
+                    <aside class="aside-carrito">
+                            <ul class="menu-categorias">
+                                <li>
+                                    <p class="menu-categ-title">Categories</p>
+                                </li>
+                                <li>
+                                    <button id="todos" class="boton-menu boton-categoria active">All</button>
+                                </li>
+                                <li>
+                                    <button id="nail-polish" class="boton-menu boton-categoria">Nail Polish</button>
+                                </li>
+                                <li>
+                                    <button id="gel-polish" class="boton-menu boton-categoria">Gel Polish</button>
+                                </li>
+                                <li>
+                                    <button id="serum" class="boton-menu boton-categoria">Serum</button>
+                                </li>
+                            </ul>
+                    </aside>
+                    <main class="main-carrito">
+                        <div id="contenedor-productos" class="contenedor-productos">
+                            
+                        </div>
+                    </main>
                 </div>
             </div>
         </div>
@@ -107,7 +111,6 @@
                     <ul class="d-flex gap-3 flex-column ul-foo">
                         <li class="bold-footer">links</li>
                         <li class="light-footer op"><a href="../index.html" data-section="footer" data-value="services">servicios</a></li>
-                        <li class="light-footer op"><a href="../index.html" data-section="footer" data-value="products">productos</a></li>
                     </ul>
                     <ul class="d-flex gap-3 flex-column">
                         <li class="bold-footer" data-section="footer" data-value="about">acerca</li>
@@ -148,6 +151,7 @@
     </div>
     <!-----Fin Offcanvas-->
     <script src="../js/scripts.js"></script>
+    <script src="../js/products.js"></script>
     <!--Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>

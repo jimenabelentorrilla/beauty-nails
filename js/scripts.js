@@ -17,7 +17,18 @@ const changeLanguage = async (language) => {
 
 
 flagsElement.addEventListener("click", (e) => {
-    const language = e.target.parentElement.dataset.language;
+    // Asegúrate de que el usuario hizo clic en un elemento con `data-language`
+    const flagItem = e.target.closest(".flags_item");
+    if (!flagItem) return;
+
+    // Remueve la clase 'selected' de todos los elementos
+    document.querySelectorAll(".flags_item").forEach(item => item.classList.remove("selected"));
+
+    // Agrega la clase 'selected' al elemento clicado
+    flagItem.classList.add("selected");
+
+    // Obtiene el idioma y llama a `changeLanguage`
+    const language = flagItem.dataset.language;
     changeLanguage(language);
 });
 
@@ -25,4 +36,12 @@ flagsElement.addEventListener("click", (e) => {
 document.addEventListener("DOMContentLoaded", () => {
     const savedLanguage = localStorage.getItem("language") || "es"; 
     changeLanguage(savedLanguage);
+
+    // Marca el idioma seleccionado
+    document.querySelectorAll(".flags_item").forEach(item => {
+        if (item.dataset.language === savedLanguage) {
+            item.classList.add("selected");
+        }
+    });
 });
+
