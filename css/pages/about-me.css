@@ -27,6 +27,9 @@
   animation-timeline: view();
   animation-range: entry 20% cover 50%;
 }
+.over-f{
+  overflow: hidden
+}
 @keyframes reveal {
   from {
     opacity: 0;

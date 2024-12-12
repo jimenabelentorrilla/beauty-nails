@@ -1,8 +1,9 @@
 /***about-me***/
 
 .cont-about{
-  min-height: 100vh;
+  min-height: clamp(50vh, 80vh + 1vw, 100vh);
   padding: 3rem; 
+  align-content: center;
 }
 .about-flex{
   display: flex;

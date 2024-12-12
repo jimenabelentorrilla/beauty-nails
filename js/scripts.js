@@ -43,5 +43,12 @@ document.addEventListener("DOMContentLoaded", () => {
             item.classList.add("selected");
         }
     });
+    AOS.init({
+        offset: 120, // Distancia desde el viewport para activar las animaciones
+        delay: 10,    // Retraso en milisegundos
+        duration: 900, // Duración de las animaciones
+        easing: 'ease', // Tipo de easing para las animaciones
+        once: true,   // Las animaciones deben ejecutarse solo una vez
+    });
 });
 

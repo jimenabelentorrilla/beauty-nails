@@ -1,13 +1,13 @@
 /***about***/
 
-.cont-height-4, .bg-form-serv-det {
+.cont-height-4 {
   background-color: var(--light-brown);
   background-image: url("../assets/img/circles.webp");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position-y: bottom;
   background-size: contain;
-  min-height: 85vh;
+  min-height: clamp(10vh, 70vh + 1vw, 100vh);
 }
 .text-p{
   width: 65%;

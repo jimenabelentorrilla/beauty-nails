@@ -1,7 +1,7 @@
 /***footer***/
 
 .foo-cont{
-  min-height: 90vh;
+  min-height: clamp(10vh, 70vh + 1vw, 100vh);
   background-color: var(--brown);
   padding: 4rem;
 }
