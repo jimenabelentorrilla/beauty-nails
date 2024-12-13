@@ -3,6 +3,7 @@
 .he-nav{
   height: 12vh !important;
   align-content: center;
+  padding: 2rem;
 }
 .sticky-nav{
   background-color: var(--light-grey);

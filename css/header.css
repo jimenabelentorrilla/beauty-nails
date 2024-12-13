@@ -1,9 +1,9 @@
 /***header***/
-
 .header-flex{
   display: flex;
-  align-items: center;
-  min-height: 110vh !important;
+  align-items: flex-end;
+  min-height: clamp(40vh, 85vh + 1vw, 110vh);
+  justify-content: center;
 }
 .header-text h1{
   font-size: clamp(2.5rem, 1.436rem + 3.404vw, 4.5rem);
@@ -159,6 +159,10 @@
     width: 2.5rem;
     height: 2.5rem;
   }
+  .header-flex{
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 991.99px){
@@ -167,6 +171,7 @@
   }
   .header-flex{
     justify-content: center;
+    align-items: center;
   }
 }
 

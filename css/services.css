@@ -59,6 +59,9 @@
     align-items: center;
     gap: 3rem; 
   }
+  .services-title{
+    text-align: center;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 991.99px) {
@@ -66,5 +69,8 @@
     flex-direction: column;
     align-items: center;
     gap: 3rem; 
+  }
+  .services-title{
+    text-align: center;
   }
 }

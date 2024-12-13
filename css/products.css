@@ -2,7 +2,7 @@
 
 .cont-height-3 {
   min-height: clamp(50vh, 80vh + 1vw, 100vh);
-  padding: 4rem 0rem;
+  padding: 4rem 2rem;
 }
 .prod-f {
   display: flex;
