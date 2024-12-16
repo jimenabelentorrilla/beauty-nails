@@ -94,7 +94,7 @@
     cursor: pointer;
   }
 
-  .offcanvas-header {
+  .offcanvas-header-modal {
     background-color: var(--brown);
     color: var(--white);
     padding: 1rem;

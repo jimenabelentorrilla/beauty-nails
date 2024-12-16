@@ -31,7 +31,7 @@ function cargarProductos(productosElegidos) {
                 <button class="producto-agregar" id="${producto.id}">Agregar</button>
             </div>
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight-${producto.id}" aria-labelledby="offcanvasRightLabel-${producto.id}">
-                <div class="offcanvas-header">
+                <div class="offcanvas-header-modal">
                     <h5 id="offcanvasRightLabel-${producto.id}" class="offcanvas-titulo">${producto.titulo}</h5>
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
@@ -89,13 +89,12 @@ if (productosEnCarritoLS) {
 function agregarAlCarrito(e) {
     Toastify({
         text: "Producto agregado",
-        duration: 3000,
-        close: true,
+        duration: 2500,
         gravity: "top", // `top` or `bottom`
         position: "right", // `left`, `center` or `right`
         stopOnFocus: true, // Prevents dismissing of toast on hover
         style: {
-            background: "linear-gradient(to right,rgb(237, 119, 148),rgb(235, 62, 123))",
+            background: "#BF9D3D",
             borderRadius: "2rem",
             textTransform: "uppercase",
             fontSize: ".75rem"
@@ -104,9 +103,7 @@ function agregarAlCarrito(e) {
             x: '1.5rem', // horizontal axis - can be a number or a string indicating unity. eg: '2em'
             y: '4rem' // vertical axis - can be a number or a string indicating unity. eg: '2em'
         },
-        onClick: function(){} // Callback after click
       }).showToast();
-
 
     const idBoton = e.currentTarget.id;
     const productoAgregado = productos.find(producto => producto.id === idBoton);

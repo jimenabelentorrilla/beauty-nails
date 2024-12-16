@@ -58,13 +58,12 @@ function actualizarBotonesEliminar() {
 function eliminarDelCarrito(e) {
     Toastify({
         text: "Producto eliminado",
-        duration: 3000,
-        close: true,
+        duration: 2500,
         gravity: "top", // `top` or `bottom`
         position: "right", // `left`, `center` or `right`
         stopOnFocus: true, // Prevents dismissing of toast on hover
         style: {
-            background: "linear-gradient(to right,rgb(237, 119, 148),rgb(235, 62, 123))",
+            background: "#BF9D3D",
             borderRadius: "2rem",
             textTransform: "uppercase",
             fontSize: ".75rem"
@@ -72,8 +71,7 @@ function eliminarDelCarrito(e) {
         offset: {
             x: '1rem', // horizontal axis - can be a number or a string indicating unity. eg: '2em'
             y: '4rem' // vertical axis - can be a number or a string indicating unity. eg: '2em'
-        },
-        onClick: function(){} // Callback after click
+        }
     }).showToast();
 
     const idBoton = e.currentTarget.id;
@@ -83,7 +81,6 @@ function eliminarDelCarrito(e) {
     cargarProductosCarrito();
 
     localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
-
 }
 
 botonVaciar.addEventListener("click", vaciarCarrito);
