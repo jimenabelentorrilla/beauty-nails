@@ -28,12 +28,11 @@ function cargarProductos(productosElegidos) {
             <div class="producto-detalles">
                 <h3 class="producto-titulo">${producto.titulo}</h3>
                 <p class="producto-precio">$${producto.precio}</p>
-                <button class="producto-agregar" id="${producto.id}">Agregar</button>
+                <button class="producto-agregar" id="${producto.id}">agregar</button>
             </div>
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight-${producto.id}" aria-labelledby="offcanvasRightLabel-${producto.id}">
                 <div class="offcanvas-header-modal">
                     <h5 id="offcanvasRightLabel-${producto.id}" class="offcanvas-titulo">${producto.titulo}</h5>
-                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
                     <div class="producto-detalles d-flex align-items-center">
@@ -41,7 +40,7 @@ function cargarProductos(productosElegidos) {
                         <p class="offcanvas-descripcion">${producto.descripcion}</p>
                         <div class="d-flex justify-content-between align-items-baseline w-100">
                             <p class="offcanvas-precio"><strong>Precio:</strong> $${producto.precio}</p>
-                            <button class="producto-agregar" id="${producto.id}">Agregar</button>
+                            <button class="producto-agregar" id="${producto.id}">agregar</button>
                         </div>
                     </div>
                 </div>
@@ -103,7 +102,7 @@ function agregarAlCarrito(e) {
             x: '1.5rem', // horizontal axis - can be a number or a string indicating unity. eg: '2em'
             y: '4rem' // vertical axis - can be a number or a string indicating unity. eg: '2em'
         },
-      }).showToast();
+    }).showToast();
 
     const idBoton = e.currentTarget.id;
     const productoAgregado = productos.find(producto => producto.id === idBoton);

@@ -92,5 +92,17 @@
         "second-paragraph":"Beauty Nails began with a clear vision: to create a space where everyone can express themselves through the art of nails. From our first designs, we committed to offering a service that combines creativity and professionalism.",
         "third-title": "Most popular, clean, and recommended nail salon",
         "third-paragraph": "We prioritize hygiene, comfort, and the latest trends in nail artistry to provide an experience that goes beyond expectations. Step into a space where beauty and care come together to create the perfect look."
+    },
+    "carrito": {
+        "atras": "go back",
+        "vacio": "Your cart is empty.",
+        "add": "add",
+        "producto": "Product",
+        "titulo": "Title",
+        "cantidad": "Quantity",
+        "precio": "Price",
+        "subtotal": "Subtotal",
+        "vaciar": "Empty cart",
+        "comprar": "Buy now"
     }
 }

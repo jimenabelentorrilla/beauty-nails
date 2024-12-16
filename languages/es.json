@@ -92,5 +92,17 @@
         "second-paragraph":"Comenzó con una visión clara: crear un espacio donde cada persona pueda expresarse a través del arte de las uñas. Desde nuestros primeros diseños, nos comprometimos a ofrecer un servicio que combine creatividad y profesionalismo.",
         "third-title": "El Salón Más Popular, Limpio y Recomendado",
         "third-paragraph": "Priorizamos la higiene, el confort y las últimas tendencias en el arte de uñas para brindarte una experiencia que supera expectativas. Entra a un espacio donde la belleza y el cuidado se unen para crear el look perfecto."
+    },
+    "carrito" :{
+        "atras": "volver",
+        "vacio": "Tu carrito está vacío.",
+        "add": "agregar",
+        "producto": "Producto",
+        "titulo": "Titulo",
+        "cantidad": "Cantidad",
+        "precio": "Precio",
+        "subtotal": "Subtotal",
+        "vaciar": "Vaciar carrito",
+        "comprar": "Comprar ahora"
     }
 }
