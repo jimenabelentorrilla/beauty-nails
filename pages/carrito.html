@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beauty Nails | Tech-24233</title>
     <link rel="icon" href="../assets/img/flaticon.png">
@@ -19,10 +20,10 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <!--Pages css-->
     <link rel="stylesheet" href="../css/nav.css">
-    <link rel="stylesheet" href="../css/appointment.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/pages/productos.css">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/pages/carrito.css">
 </head>
 <body>
     <!-----Nav---->
@@ -53,51 +54,50 @@
                         <li class="op"><a href="../index.html#testimonials" data-section="nav" data-value="testimonials"></a></li>
                         <li class="op"><a href="../pages/about-me.html" data-section="nav" data-value="about"></a></li>
                         <li class="op"><a href="#footer" data-section="nav" data-value="contact"></a></li>
-                        <li><a href="../pages/carrito.html"><i class="fa-solid fa-cart-shopping fa-xl" style="color: #78261A;"></i></a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
-    <!----Header Gallery----->
-    <div class="container-fluid bg-gallery d-flex justify-content-center align-items-center">
-        <div class="row">
-            <div class="col">
-                <div class="appo-text">
-                    <h2 data-section="header" data-value="title-gallery"></h2>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!----View Products-->
     <div class="container">
         <div class="row">
             <div class="col">
-                <div class="wrapper-carrito">
-                    <aside class="aside-carrito">
-                            <ul class="menu-categorias">
-                                <li>
-                                    <p class="menu-categ-title">Categories</p>
-                                </li>
-                                <li>
-                                    <button id="todos" class="boton-menu boton-categoria active">All</button>
-                                </li>
-                                <li>
-                                    <button id="nail-polish" class="boton-menu boton-categoria">Nail Polish</button>
-                                </li>
-                                <li>
-                                    <button id="gel-polish" class="boton-menu boton-categoria">Gel Polish</button>
-                                </li>
-                                <li>
-                                    <button id="serum" class="boton-menu boton-categoria">Serum</button>
-                                </li>
-                            </ul>
-                    </aside>
-                    <main class="main-carrito">
-                        <div id="contenedor-productos" class="contenedor-productos">
-                            
+                <div class="lista">
+                    <div class="volver">
+                        <a href="./productos.html"><i class="fa-solid fa-arrow-rotate-left fa-lg" style="color: #78261A;">volver</i></a>
+                        <p id="carrito-vacio" class="carrito-vacio disabled">Tu carrito está vacío.</p>
+                    </div>
+                    <div class="contenedor-carrito">
+                        <div class="carrito-productos">
+                            <table class="table" id="tabla-productos">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Producto</th>
+                                        <th scope="col">Titulo</th>
+                                        <th scope="col">Cantidad</th>
+                                        <th scope="col">Precio</th>
+                                        <th scope="col">Subtotal</th>
+                                        <th scopr="col"></th>
+                                    </tr>
+                                </thead>
+                                <tbody id="carrito-productos">
+                                    <!-- Esto se va a completar con el JS -->
+                                </tbody>
+                            </table>
                         </div>
-                    </main>
+                    </div>
+                    <div id="carrito-acciones" class="carrito-acciones">
+                        <div class="carrito-acciones-izquierda">
+                            <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar carrito</button>
+                        </div>
+                        <div class="carrito-acciones-derecha">
+                            <div class="carrito-acciones-total">
+                                <p>Total:</p>
+                                <p id="total"></p>
+                            </div>
+                            <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar ahora</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -139,28 +139,11 @@
             </div>
         </div>
     </footer>
-    <!-----Offcanvas-->
-    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
-        <div class="offcanvas-body">
-            <div class="offcanvas-header navbar-br">
-                <a href="../index.html">BeautyNails</a>
-            </div>
-            <ul class="d-flex flex-column nav-ul text-align-center">
-                <li class="op"><a href="../index.html#services" data-section="nav" data-value="services"></a></li>
-                <li class="op"><a href="../index.html#testimonials" data-section="nav" data-value="testimonials"></a></li>
-                <li class="op"><a href="../pages/about-me.html" data-section="nav" data-value="about"></a></li>
-                <li class="op"><a href="#footer" data-section="nav" data-value="contact"></a></li>
-            </ul>
-        </div>
-    </div>
-    <!-----Fin Offcanvas-->
     <script src="../js/scripts.js"></script>
-    <script src="../js/products.js"></script>
+    <script src="../js/carrito.js"></script>
     <!---toastify-->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <!---AOS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <!--Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>

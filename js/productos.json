@@ -1,7 +1,7 @@
 [
     {
         "id": "nailpolish-01",
-        "titulo": "Esmalte Nail Enamel x9ml",
+        "titulo": "Esmalte Nail Enamel Rojo x9ml",
         "imagen": "../assets/img/products/esmalte rojo.webp",
         "categoria": {
             "nombre": "Nail Polish",
@@ -12,7 +12,7 @@
     },
     {
         "id": "nailpolish-02",
-        "titulo": "Esmalte Nail Enamel x9ml",
+        "titulo": "Esmalte Nail Enamel Rosa x9ml",
         "imagen": "../assets/img/products/esmalte rosa.webp",
         "categoria": {
             "nombre": "Nail Polish",
@@ -23,7 +23,7 @@
     },
     {
         "id": "nailpolish-03",
-        "titulo": "Esmalte Nail Enamel x9ml",
+        "titulo": "Esmalte Nail Enamel Negro x9ml",
         "imagen": "../assets/img/products/esmalte-negro.webp",
         "categoria": {
             "nombre": "Nail Polish",

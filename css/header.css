@@ -2,7 +2,7 @@
 .header-flex{
   display: flex;
   align-items: flex-end;
-  min-height: clamp(40vh, 85vh + 1vw, 110vh);
+  min-height: clamp(40vh, 95vh + 1vw, 110vh);
   justify-content: center;
 }
 .header-text h1{
@@ -151,9 +151,6 @@
 @media (width < 575.99px){
   .header-img{
     display: none;
-  }
-  .header-flex{
-    justify-content: center;
   }
   .cta-arrow{
     width: 2.5rem;

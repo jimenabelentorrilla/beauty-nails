@@ -10,6 +10,7 @@ fetch("/js/productos.json")
 
 const contenedorProductos = document.querySelector("#contenedor-productos");
 const botonesCategorias = document.querySelectorAll(".boton-categoria");
+let botonesAgregar = document.querySelectorAll(".producto-agregar");
 
 function cargarProductos(productosElegidos) {
 
@@ -27,7 +28,7 @@ function cargarProductos(productosElegidos) {
             <div class="producto-detalles">
                 <h3 class="producto-titulo">${producto.titulo}</h3>
                 <p class="producto-precio">$${producto.precio}</p>
-                <button class="producto-agregar" id="agregar-${producto.id}">Agregar</button>
+                <button class="producto-agregar" id="${producto.id}">Agregar</button>
             </div>
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight-${producto.id}" aria-labelledby="offcanvasRightLabel-${producto.id}">
                 <div class="offcanvas-header">
@@ -40,7 +41,7 @@ function cargarProductos(productosElegidos) {
                         <p class="offcanvas-descripcion">${producto.descripcion}</p>
                         <div class="d-flex justify-content-between align-items-baseline w-100">
                             <p class="offcanvas-precio"><strong>Precio:</strong> $${producto.precio}</p>
-                            <button class="producto-agregar" id="offcanvas-agregar-${producto.id}">Agregar</button>
+                            <button class="producto-agregar" id="${producto.id}">Agregar</button>
                         </div>
                     </div>
                 </div>
@@ -49,6 +50,7 @@ function cargarProductos(productosElegidos) {
 
         contenedorProductos.append(div);
     })
+    actualizarBotonesAgregar();
 }
 
 botonesCategorias.forEach(boton => {
@@ -65,3 +67,57 @@ botonesCategorias.forEach(boton => {
         }
     })
 });
+
+function actualizarBotonesAgregar() {
+    botonesAgregar = document.querySelectorAll(".producto-agregar");
+
+    botonesAgregar.forEach(boton => {
+        boton.addEventListener("click", agregarAlCarrito);
+    });
+}
+
+let productosEnCarrito;
+
+let productosEnCarritoLS = localStorage.getItem("productos-en-carrito");
+
+if (productosEnCarritoLS) {
+    productosEnCarrito = JSON.parse(productosEnCarritoLS);
+} else {
+    productosEnCarrito = [];
+}
+
+function agregarAlCarrito(e) {
+    Toastify({
+        text: "Producto agregado",
+        duration: 3000,
+        close: true,
+        gravity: "top", // `top` or `bottom`
+        position: "right", // `left`, `center` or `right`
+        stopOnFocus: true, // Prevents dismissing of toast on hover
+        style: {
+            background: "linear-gradient(to right,rgb(237, 119, 148),rgb(235, 62, 123))",
+            borderRadius: "2rem",
+            textTransform: "uppercase",
+            fontSize: ".75rem"
+        },
+        offset: {
+            x: '1.5rem', // horizontal axis - can be a number or a string indicating unity. eg: '2em'
+            y: '4rem' // vertical axis - can be a number or a string indicating unity. eg: '2em'
+        },
+        onClick: function(){} // Callback after click
+      }).showToast();
+
+
+    const idBoton = e.currentTarget.id;
+    const productoAgregado = productos.find(producto => producto.id === idBoton);
+    
+    if(productosEnCarrito.some(producto => producto.id === idBoton)) {
+        const index = productosEnCarrito.findIndex(producto => producto.id === idBoton);
+        productosEnCarrito[index].cantidad++;
+    } else {
+        productoAgregado.cantidad = 1;
+        productosEnCarrito.push(productoAgregado);
+    }
+
+    localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
+}
