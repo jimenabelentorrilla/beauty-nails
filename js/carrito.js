@@ -85,11 +85,14 @@ function eliminarDelCarrito(e) {
 
 botonVaciar.addEventListener("click", vaciarCarrito);
 function vaciarCarrito() {
+    const totalProductos = productosEnCarrito.reduce((acc, producto) => acc + producto.cantidad, 0);
+    const textoProducto = totalProductos === 1 ? "producto" : "productos"; // Singular o plural
+    const textoVan = totalProductos === 1 ? "va" : "van";
 
     Swal.fire({
         title: '¿Estás seguro?',
         icon: 'question',
-        html: `Se van a borrar ${productosEnCarrito.reduce((acc, producto) => acc + producto.cantidad, 0)} productos.`,
+        html: `Se ${textoVan} a borrar ${totalProductos} ${textoProducto}.`, // Texto dinámico
         showCancelButton: true,
         focusConfirm: false,
         confirmButtonText: 'Sí',

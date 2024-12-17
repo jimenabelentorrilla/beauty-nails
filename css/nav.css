@@ -87,6 +87,9 @@
   .sticky-nav{
     padding: 0em 2em;
   }
+  .he-nav{
+    padding: 0.5rem;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 991.99px){

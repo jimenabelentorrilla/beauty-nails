@@ -149,6 +149,7 @@
 }
 .producto-precio{
   margin-bottom: 0;
+  font-weight: 600;
 }
 .producto-agregar:hover {
   background-color: var(--light-brown);
@@ -195,6 +196,21 @@
   background-color: #f9f9f9; /* Fondo claro */
 }
 /*** MEDIA QUERIES ***/
+@media screen and (max-width: 400px){
+  .wrapper-carrito{
+    grid-template-columns: 1fr;
+  }
+  .menu-categorias{
+    width: 80%;
+  }
+  .aside-carrito{
+    height: 70vh;
+  }
+  .bg-gallery {
+    min-height: 45vh;
+  }
+}
+
 
 @media screen and (min-width: 400px) and (max-width: 599px) {
   .contenedor-productos {

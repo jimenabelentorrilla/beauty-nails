@@ -112,4 +112,16 @@
 .carrito-acciones-comprar:hover{
     transform: scale(1.05);
 }
-
+@media screen and (max-width: 430px){
+    .table>:not(caption)>*>* {
+        padding: 0.3rem .3rem;
+    }
+    .volver{
+        font-size: 16px;
+    }
+    .carrito-acciones{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 2rem;
+    }
+}
