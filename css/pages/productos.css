@@ -147,10 +147,52 @@
   border: 2px solid white;
   transition: background-color .2s, color .2s;
 }
-
+.producto-precio{
+  margin-bottom: 0;
+}
 .producto-agregar:hover {
   background-color: var(--light-brown);
   color: var(--white);
+}
+/* Estilos generales del contenedor de control */
+.cantidad-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.cantidad-control button {
+  background-color: #BF9D3D; /* Color dorado */
+  color: #fff; /* Texto blanco */
+  border: none;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-radius: 50%; /* Botones circulares */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cantidad-control button:hover {
+  background-color: #a8852c; /* Color dorado más oscuro al pasar el cursor */
+}
+
+.cantidad-control span {
+  min-width: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333; /* Gris oscuro */
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  background-color: #f9f9f9; /* Fondo claro */
 }
 /*** MEDIA QUERIES ***/
 

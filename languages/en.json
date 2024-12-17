@@ -104,5 +104,12 @@
         "subtotal": "Subtotal",
         "vaciar": "Empty cart",
         "comprar": "Buy now"
+    },
+    "categories": {
+        "title" : "Categories",
+        "all" : "All",
+        "nail" : "Nail Polish",
+        "gel" : "Gel Polish",
+        "serum" : "Serum"
     }
 }

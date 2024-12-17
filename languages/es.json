@@ -104,5 +104,12 @@
         "subtotal": "Subtotal",
         "vaciar": "Vaciar carrito",
         "comprar": "Comprar ahora"
+    },
+    "categories": {
+        "title" : "Categorias",
+        "all" : "Todos",
+        "nail" : "Esmalte",
+        "gel" : "Semipermanente",
+        "serum" : "Cremas"
     }
 }

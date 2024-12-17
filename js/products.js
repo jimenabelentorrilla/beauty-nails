@@ -17,6 +17,7 @@ function cargarProductos(productosElegidos) {
     contenedorProductos.innerHTML = "";
 
     productosElegidos.forEach(producto => {
+        let cantidad = 1; // Inicializamos la cantidad en 1
 
         const div = document.createElement("div");
         div.classList.add("producto");
@@ -27,28 +28,38 @@ function cargarProductos(productosElegidos) {
                 aria-controls="offcanvasRight-${producto.id}">
             <div class="producto-detalles">
                 <h3 class="producto-titulo">${producto.titulo}</h3>
+                
+                <div class="cantidad-control">
                 <p class="producto-precio">$${producto.precio}</p>
-                <button class="producto-agregar" id="${producto.id}">agregar</button>
-            </div>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight-${producto.id}" aria-labelledby="offcanvasRightLabel-${producto.id}">
-                <div class="offcanvas-header-modal">
-                    <h5 id="offcanvasRightLabel-${producto.id}" class="offcanvas-titulo">${producto.titulo}</h5>
+                    <button class="btn-decrementar" id="decrementar-${producto.id}">-</button>
+                    <span id="cantidad-${producto.id}">${cantidad}</span>
+                    <button class="btn-incrementar" id="incrementar-${producto.id}">+</button>
                 </div>
-                <div class="offcanvas-body">
-                    <div class="producto-detalles d-flex align-items-center">
-                        <img class="producto-imagen-off" src="${producto.imagen}" alt="${producto.titulo}">
-                        <p class="offcanvas-descripcion">${producto.descripcion}</p>
-                        <div class="d-flex justify-content-between align-items-baseline w-100">
-                            <p class="offcanvas-precio"><strong>Precio:</strong> $${producto.precio}</p>
-                            <button class="producto-agregar" id="${producto.id}">agregar</button>
-                        </div>
-                    </div>
-                </div>
+                <button class="producto-agregar" id="${producto.id}" data-cantidad="${cantidad}">Agregar</button>
             </div>
         `;
 
         contenedorProductos.append(div);
-    })
+
+        // Eventos para los botones "+" y "-"
+        const btnIncrementar = div.querySelector(`#incrementar-${producto.id}`);
+        const btnDecrementar = div.querySelector(`#decrementar-${producto.id}`);
+        const cantidadSpan = div.querySelector(`#cantidad-${producto.id}`);
+        const btnAgregar = div.querySelector(`.producto-agregar`);
+
+        btnIncrementar.addEventListener("click", () => {
+            cantidad++;
+            cantidadSpan.textContent = cantidad;
+            btnAgregar.dataset.cantidad = cantidad; 
+        });
+
+        btnDecrementar.addEventListener("click", () => {
+            if (cantidad > 1) cantidad--;
+            cantidadSpan.textContent = cantidad;
+            btnAgregar.dataset.cantidad = cantidad; 
+        });
+    });
+
     actualizarBotonesAgregar();
 }
 
@@ -89,9 +100,9 @@ function agregarAlCarrito(e) {
     Toastify({
         text: "Producto agregado",
         duration: 2500,
-        gravity: "top", // `top` or `bottom`
-        position: "right", // `left`, `center` or `right`
-        stopOnFocus: true, // Prevents dismissing of toast on hover
+        gravity: "top",
+        position: "right",
+        stopOnFocus: true,
         style: {
             background: "#BF9D3D",
             borderRadius: "2rem",
@@ -99,19 +110,20 @@ function agregarAlCarrito(e) {
             fontSize: ".75rem"
         },
         offset: {
-            x: '1.5rem', // horizontal axis - can be a number or a string indicating unity. eg: '2em'
-            y: '4rem' // vertical axis - can be a number or a string indicating unity. eg: '2em'
+            x: '1.5rem',
+            y: '4rem'
         },
     }).showToast();
 
     const idBoton = e.currentTarget.id;
+    const cantidadSeleccionada = parseInt(e.currentTarget.dataset.cantidad); 
     const productoAgregado = productos.find(producto => producto.id === idBoton);
-    
-    if(productosEnCarrito.some(producto => producto.id === idBoton)) {
+
+    if (productosEnCarrito.some(producto => producto.id === idBoton)) {
         const index = productosEnCarrito.findIndex(producto => producto.id === idBoton);
-        productosEnCarrito[index].cantidad++;
+        productosEnCarrito[index].cantidad += cantidadSeleccionada; 
     } else {
-        productoAgregado.cantidad = 1;
+        productoAgregado.cantidad = cantidadSeleccionada;
         productosEnCarrito.push(productoAgregado);
     }
 
