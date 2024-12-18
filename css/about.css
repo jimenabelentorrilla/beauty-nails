@@ -17,6 +17,7 @@
   font-size: clamp(1.625rem, 1.16rem + 1.489vw, 2.5rem);
   font-family: var(--font-primary);
   color: var(--white);
+  line-height: 1.6;
 }
 .text-p span{
   color: var(--brown);

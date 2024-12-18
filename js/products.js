@@ -37,6 +37,21 @@ function cargarProductos(productosElegidos) {
                 </div>
                 <button class="producto-agregar" id="${producto.id}" data-cantidad="${cantidad}">Agregar</button>
             </div>
+            
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight-${producto.id}" aria-labelledby="offcanvasRightLabel-${producto.id}">
+                <div class="offcanvas-header">
+                    <h5 id="offcanvasRightLabel-${producto.id}" class="offcanvas-titulo">${producto.titulo}</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="producto-detalles d-flex align-items-center">
+                        <img class="producto-imagen-off" src="${producto.imagen}" alt="${producto.titulo}">
+                        <p class="offcanvas-descripcion">${producto.descripcion}</p>
+                        <p class="producto-precio">$${producto.precio}</p>                            
+                        <button class="producto-agregar" id="${producto.id}" data-cantidad="${cantidad}">Agregar</button>
+                    </div>
+                </div>
+            </div>
         `;
 
         contenedorProductos.append(div);
