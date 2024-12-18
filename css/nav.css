@@ -32,7 +32,7 @@
 .op a:hover{
   color: var(--light-brown);
 }
-.nav-ul li{
+.nav-ul li, .op-off{
   list-style-type: none;
 }
 .nav-ul li a{
@@ -43,12 +43,27 @@
   text-decoration: none;
   text-transform: capitalize;
 }
-.nav-block{
-  display: flex;
-}
+
 .offcanvas, .offcanvas-top{
   min-height: 60vh;
   z-index: 9999;
+}
+.nav-ul-off{
+  margin-bottom: 0;
+  height: 35vh;
+  padding: 1.5rem 1rem;
+}
+
+.nav-ul-off li a{
+  font-family: var(--font-secondary);
+  color: var(--brown);
+  font-size: 1.5rem; 
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.nav-block{
+  display: flex;
 }
 .flags{
   width: 100px;
