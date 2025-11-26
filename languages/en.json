@@ -3,6 +3,7 @@
         "services": "services",
         "testimonials": "testimonials",
         "about": "about",
+        "products": "products",
         "contact": "contact"
     },
     "home": {
@@ -66,7 +67,7 @@
         "about": "about",
         "testimonials":"testimonials",
         "contact":"contact",
-        "all":"2024 All Rights reserved"
+        "all":"Built with ❤️ using HTML, CSS and JavaScript."
     },
     "form": {
         "title": "Get in touch",
@@ -94,7 +95,6 @@
         "third-paragraph": "We prioritize hygiene, comfort, and the latest trends in nail artistry to provide an experience that goes beyond expectations. Step into a space where beauty and care come together to create the perfect look."
     },
     "carrito": {
-        "atras": "go back",
         "vacio": "Your cart is empty.",
         "add": "add",
         "producto": "Product",

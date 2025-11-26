@@ -33,8 +33,8 @@
         <!-----Nav---->
         <div class="container-fluid sticky-nav">
             <div class="row he-nav d-flex">
-                <div class="col d-flex align-items-center">
-                    <div class="navbar-br">
+                <div class="col d-flex align-items-center justify-content-start">
+                    <div class="navbar-br w-25">
                         <a href="#home">BeautyNails</a>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
                     </div>
                 </div>
                 <!------>
-                <div class="col d-flex align-items-center justify-content-between">
+                <div class="col d-flex align-items-center justify-content-end gap-4">
                     <div class="menu"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
                         <i class="fa-solid fa-bars fa-xl" style="color: #000000;"></i>
                     </div>
@@ -56,11 +56,12 @@
                         <ul class="d-flex justify-content-between nav-ul">
                             <li class="op"><a href="#services" data-section="nav" data-value="services"></a></li>
                             <li class="op"><a href="#testimonials" data-section="nav" data-value="testimonials"></a></li>
-                            <li class="op"><a href="#about" data-section="nav" data-value="about"></a></li>
+                            <li class="op"><a href="/pages/about-me.html" data-section="nav" data-value="about"></a></li>
+                            <li class="op"><a href="/pages/productos.html" data-section="nav" data-value="products"></a></li>
                             <li class="op"><a href="#contact" data-section="nav" data-value="contact"></a></li>
                         </ul>
                     </div>
-                    <div>
+                    <div class="icon-block">
                         <a href="./pages/carrito.html"><i class="fa-solid fa-cart-shopping fa-xl" style="color: #78261A;"></i></a>
                     </div>
                 </div>
@@ -259,7 +260,7 @@
                         </div>
                         <div class="qt-bloque-flex">
                             <div class="qt-flex">
-                                <div>
+                                <div class="qt-icon">
                                     <img src="./assets/img/icon-1.webp" alt="icon-1">
                                 </div>
                                 <div class="qt-card-text">
@@ -268,7 +269,7 @@
                                 </div>
                             </div>
                             <div class="qt-flex">
-                                <div>
+                                <div class="qt-icon">
                                     <img src="./assets/img/icon-2.webp" alt="icon-2">
                                 </div>
                                 <div class="qt-card-text">
@@ -277,7 +278,7 @@
                                 </div>
                             </div>
                             <div class="qt-flex">
-                                <div>
+                                <div class="qt-icon">
                                     <img src="./assets/img/icon-3.webp" alt="icon-3">
                                 </div>
                                 <div class="qt-card-text">
@@ -286,7 +287,7 @@
                                 </div>
                             </div>
                             <div class="qt-flex">
-                                <div>
+                                <div class="qt-icon">
                                     <img src="./assets/img/icon-4.webp" alt="icon-4">
                                 </div>
                                 <div class="qt-card-text">
@@ -307,11 +308,11 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="d-flex justify-content-center" id="testimonials">
-                                    <div> 
+                                    <div class="testimonial w-100"> 
                                         <div>
                                             <p class="test-text" data-section="testimonials" data-value="first-testimonial"></p>
                                         </div>
-                                        <div class="d-flex gap-2 justify-content-center align-items-center">
+                                        <div class="d-flex gap-2 justify-content-center align-items-center w-25">
                                             <div>
                                                 <img src="/assets/img/test-icon.webp" alt="Client Testimonial">
                                             </div>
@@ -324,11 +325,11 @@
                             </div>
                             <div class="carousel-item">
                                 <div class="d-flex justify-content-center">
-                                    <div class="testimonial"> 
+                                    <div class="testimonial w-100"> 
                                         <div>
                                             <p class="test-text" data-section="testimonials" data-value="second-testimonial"></p>
                                         </div>
-                                        <div class="d-flex gap-2 justify-content-center align-items-center">
+                                        <div class="d-flex gap-2 justify-content-center align-items-center w-25">
                                             <div>
                                                 <img src="/assets/img/test-icon-2.webp" alt="Client Testimonial">
                                             </div>
@@ -341,11 +342,11 @@
                             </div>
                             <div class="carousel-item">
                                 <div class="d-flex justify-content-center">
-                                    <div class="testimonial"> 
+                                    <div class="testimonial w-100"> 
                                         <div>
                                             <p class="test-text" data-section="testimonials" data-value="third-testimonial"></p>
                                         </div>
-                                        <div class="d-flex gap-2 justify-content-center align-items-center">
+                                        <div class="d-flex gap-2 justify-content-center align-items-center w-25">
                                             <div>
                                                 <img src="/assets/img/test-icon-3.webp" alt="Client Testimonial"> 
                                             </div>
@@ -406,7 +407,7 @@
                         <li class="light-footer op"><a href="#services" data-section="footer" data-value="services"></a></li>
                         <li class="light-footer op"><a href="./pages/productos.html" data-section="footer" data-value="products"></a></li>
                     </ul>
-                    <ul class="d-flex gap-3 flex-column">
+                    <ul class="d-flex gap-3 flex-column ul-foo">
                         <li class="bold-footer" data-section="footer" data-value="about"></li>
                         <li class="light-footer op"><a href="#testimonials" data-section="footer" data-value="testimonials"></a></li>
                         <li class="light-footer op"><a data-section="footer" data-value="contact" data-bs-toggle="modal" data-bs-target="#exampleModal"></a></li>
@@ -424,7 +425,7 @@
         <div class="row wd-90">
             <div class="col">
                 <div class="rg-fo d-flex justify-content-center align-items-center">
-                    <p data-section="footer" data-value="all">2024 Todos los derechos reservados</p>
+                    <p class="op">© 2024 <a href="" target="_blank" class="rg-link">Jimena Belén Torrilla.</a> <span data-section="footer" data-value="all"></span></p>
                 </div>
             </div>
         </div>
@@ -441,7 +442,9 @@
                     <li class="op-off"><a href="#services" data-section="nav" data-value="services"></a></li>
                     <li class="op-off"><a href="#testimonials" data-section="nav" data-value="testimonials"></a></li>
                     <li class="op-off"><a href="#about" data-section="nav" data-value="about"></a></li>
-                    <li class="op-off"><a href="#" data-section="nav" data-value="contact"></a></li>
+                    <li class="op-off"><a href="/pages/productos.html" data-section="nav" data-value="products"></a></li>
+                    <li class="op-off"><a href="./pages/carrito.html"><i class="fa-solid fa-cart-shopping fa-xl" style="color: #78261A;"></i></a></li>
+                    
                 </ul>
             </div>
         </div>

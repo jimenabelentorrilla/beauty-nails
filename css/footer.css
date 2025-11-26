@@ -26,8 +26,13 @@
   font-weight: 600;
   text-transform: uppercase;
 }
+.ul-foo{
+  list-style: none;
+  align-items: flex-start;
+}
 .ul-foo li{
   list-style-type: none;
+  margin: 0;
 }
 .light-footer a, .light-footer{
   font-size: clamp(1rem, 0.867rem + 0.426vw, 1.25rem);
@@ -42,8 +47,13 @@
   border-top: 1px #A87A7A solid;
   height: 90px;
 }
+.rg-link{
+  color: var(--white);
+  text-decoration: none;
+}
+
 .rg-fo p{
-  font-size: clamp(1rem, 0.867rem + 0.426vw, 1.25rem);
+  font-size: clamp(1rem, 0.867rem + 0.426vw, 1rem);
   text-align: center;
   font-family: var(--font-secondary);
   color: var(--white);
